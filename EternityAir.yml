@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-107 | 12.245MB
+- name: RELAY-172.67.128.43-059 | 101.623MB
   server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
   alterId: 0
   cipher: auto
   tls: true
@@ -31,53 +31,11 @@ proxies:
     path: /
     headers:
       Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-112 | 0.706MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-110 | 0.417MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-115 | 0.072MB
-  server: tr01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr01.ssru4.fun
-- name: RELAY-172.67.128.43-117 | 0.051MB
+- name: RELAY-172.67.128.43-069 | 34.067MB
   server: us02.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: c6d81f02-a7b5-36da-8fd3-648606e93d99
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
   alterId: 0
   cipher: auto
   tls: true
@@ -87,6 +45,62 @@ proxies:
     path: /
     headers:
       Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-064 | 33.423MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-062 | 15.095MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-067 | 0.701MB
+  server: tr01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
+- name: RELAY-172.67.158.188-057 | 0.04MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: c7e4c7a1-12f5-3fb6-85a7-de8fba58c9b7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
 proxy-groups:
 - name: Global ©️
   type: select
@@ -143,28 +157,29 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-107 | 12.245MB
+  - RELAY-172.67.128.43-059 | 101.623MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-112 | 0.706MB
+  - RELAY-172.67.128.43-069 | 34.067MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-110 | 0.417MB
+  - RELAY-172.67.128.43-064 | 33.423MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-115 | 0.072MB
-  - RELAY-172.67.128.43-117 | 0.051MB
+  - RELAY-172.67.128.43-062 | 15.095MB
+  - RELAY-172.67.128.43-067 | 0.701MB
+  - RELAY-172.67.158.188-057 | 0.04MB
 rules:
 - MATCH,Global ©️
