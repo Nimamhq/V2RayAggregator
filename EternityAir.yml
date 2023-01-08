@@ -17,25 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-20.205.3.10-480 | 290.644MB
-  server: az.hk01.ssru7.casa
-  port: 10031
-  type: vmess
-  uuid: cfdc5557-808d-3236-b3f0-c2ba91fcd7e9
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ssru.v2.ru02.2yun.win
-- name: 🇭🇰HK-20.205.3.10-510 | 8.944MB
+- name: 🇭🇰HK-20.205.3.10-259 | 3.943MB
   server: ah.yd01.ssru7.casa
-  port: 10014
+  port: 10010
   type: vmess
-  uuid: cfdc5557-808d-3236-b3f0-c2ba91fcd7e9
+  uuid: 130e0d76-4941-3623-837d-8717418f91d6
   alterId: 0
   cipher: auto
   tls: true
@@ -44,26 +30,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sgp01.ssru3.casa
-- name: 🇭🇰HK-20.205.3.10-220 | 0.057MB
-  server: az.hk01.ssru7.casa
-  port: 10012
+      Host: az01.ssru4.fun
+- name: 🇨🇳CN-140.179.136.12-091 | 3.925MB
+  server: jp02.jafiyun.world
+  port: 21125
   type: vmess
-  uuid: 6c0f8479-27f8-3ad3-8b1c-7be24dba0434
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hl01.ssru3.casa
-- name: 🇨🇳CN-140.179.136.12-006 | 0.056MB
-  server: 118.wgong1.top
-  port: 52218
-  type: vmess
-  uuid: 4b5e979e-72e5-3be4-9d57-c63e2028931c
+  uuid: beeb820a-a5a0-30ba-bc50-d5aa48ca2a1c
   alterId: 2
   cipher: auto
   tls: false
@@ -123,28 +95,26 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-20.205.3.10-480 | 290.644MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-20.205.3.10-510 | 8.944MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-20.205.3.10-220 | 0.057MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.136.12-006 | 0.056MB
+  - 🇭🇰HK-20.205.3.10-259 | 3.943MB
+  - 🇨🇳CN-140.179.136.12-091 | 3.925MB
 rules:
 - MATCH,Global ©️
