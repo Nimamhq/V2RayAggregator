@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-20.205.3.10-259 | 3.943MB
-  server: ah.yd01.ssru7.casa
-  port: 10010
+- name: RELAY-172.67.128.43-141 | 3.959MB
+  server: us02.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 130e0d76-4941-3623-837d-8717418f91d6
+  uuid: cda89c0b-be5c-3be1-a249-24f55e074484
   alterId: 0
   cipher: auto
   tls: true
@@ -30,16 +30,21 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: az01.ssru4.fun
-- name: 🇨🇳CN-140.179.136.12-091 | 3.925MB
-  server: jp02.jafiyun.world
-  port: 21125
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-131 | 3.916MB
+  server: can01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: beeb820a-a5a0-30ba-bc50-d5aa48ca2a1c
-  alterId: 2
+  uuid: cda89c0b-be5c-3be1-a249-24f55e074484
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
 proxy-groups:
 - name: Global ©️
   type: select
@@ -114,7 +119,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-20.205.3.10-259 | 3.943MB
-  - 🇨🇳CN-140.179.136.12-091 | 3.925MB
+  - RELAY-172.67.128.43-141 | 3.959MB
+  - RELAY-172.67.128.43-131 | 3.916MB
 rules:
 - MATCH,Global ©️
