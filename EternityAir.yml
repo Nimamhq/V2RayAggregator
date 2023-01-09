@@ -17,33 +17,34 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.183.189.68-219 | 1.844MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
+- name: RELAY-172.67.128.43-227 | 3.286MB
+  server: can01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 83f12a4c-b2bb-394c-a1e8-f655baccf613
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇺🇸US-52.53.227.160-119 | 1.172MB
-  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
-  port: 12356
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.128.43-232 | 1.669MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 83f12a4c-b2bb-394c-a1e8-f655baccf613
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇺🇸US-54.183.189.68-109 | 0.713MB
-  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
-  port: 52356
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -118,8 +119,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.183.189.68-219 | 1.844MB
-  - 🇺🇸US-52.53.227.160-119 | 1.172MB
-  - 🇺🇸US-54.183.189.68-109 | 0.713MB
+  - RELAY-172.67.128.43-227 | 3.286MB
+  - RELAY-172.67.128.43-232 | 1.669MB
 rules:
 - MATCH,Global ©️
