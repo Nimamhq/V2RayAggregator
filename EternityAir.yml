@@ -17,34 +17,24 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-146 | 0.066MB
-  server: can01.cf.ssru7.casa
-  port: 443
+- name: 🇺🇸US-54.215.174.5-316 | 1.441MB
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
   type: vmess
-  uuid: 9fdfc99d-edab-3152-9dfa-f06e94d47b33
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-151 | 0.044MB
-  server: lu01.cf.ssru7.casa
-  port: 443
+- name: 🇺🇸US-54.215.180.198-290 | 0.167MB
+  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
+  port: 80
   type: vmess
-  uuid: 9fdfc99d-edab-3152-9dfa-f06e94d47b33
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -119,7 +109,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-146 | 0.066MB
-  - RELAY-172.67.128.43-151 | 0.044MB
+  - 🇺🇸US-54.215.174.5-316 | 1.441MB
+  - 🇺🇸US-54.215.180.198-290 | 0.167MB
 rules:
 - MATCH,Global ©️
