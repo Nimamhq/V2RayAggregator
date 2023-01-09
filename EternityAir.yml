@@ -17,21 +17,30 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-140.179.136.12-097 | 2.52MB
-  server: jp02.jafiyun.world
-  port: 21125
+- name: 🇺🇸US-54.183.189.68-219 | 1.844MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
   type: vmess
-  uuid: ba8d7dc9-78d0-338f-ae90-f6589d27b144
-  alterId: 2
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.136.12-333 | 1.67MB
-  server: jp02.jafiyun.world
-  port: 21125
+- name: 🇺🇸US-52.53.227.160-119 | 1.172MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
+  port: 12356
   type: vmess
-  uuid: 6b9acfb8-0b08-3e4e-9baa-eebee452e101
-  alterId: 2
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇺🇸US-54.183.189.68-109 | 0.713MB
+  server: 00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
@@ -109,7 +118,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.136.12-097 | 2.52MB
-  - 🇨🇳CN-140.179.136.12-333 | 1.67MB
+  - 🇺🇸US-54.183.189.68-219 | 1.844MB
+  - 🇺🇸US-52.53.227.160-119 | 1.172MB
+  - 🇺🇸US-54.183.189.68-109 | 0.713MB
 rules:
 - MATCH,Global ©️
