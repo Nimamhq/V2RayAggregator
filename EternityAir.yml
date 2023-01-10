@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-20.24.87.112-526 | 0.718MB
-  server: az.hk01.ssru7.casa
-  port: 10025
+- name: RELAY-172.67.128.43-099 | 1.658MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 51349994-04e5-37a6-853e-7e6208907267
+  uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae
   alterId: 0
   cipher: auto
   tls: true
@@ -30,39 +30,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: us05.ssru4.fun
-- name: 🇨🇳CN-140.179.75.37-200 | 0.697MB
-  server: 121.wgong1.top
-  port: 52221
+      Host: uk01.ssru4.fun
+- name: 🇭🇰HK-20.24.87.112-080 | 1.288MB
+  server: ah.yd01.ssru7.casa
+  port: 10014
   type: vmess
-  uuid: f95067db-515e-3e36-9548-272b810f2ee8
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-107 | 0.557MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: cfb8d08d-d785-3368-8047-7eae6b9c91a7
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-116 | 0.078MB
-  server: 112.wgong1.top
-  port: 52212
-  type: vmess
-  uuid: cfb8d08d-d785-3368-8047-7eae6b9c91a7
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇭🇰HK-20.24.87.112-507 | 0.011MB
-  server: az.hk01.ssru7.casa
-  port: 10007
-  type: vmess
-  uuid: 51349994-04e5-37a6-853e-7e6208907267
+  uuid: a5877f62-ee12-3861-bda2-77cebf5ce6ae
   alterId: 0
   cipher: auto
   tls: true
@@ -71,7 +44,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ssru.v2.jp01.2yun.win
+      Host: sgp01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -127,29 +100,26 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-20.24.87.112-526 | 0.718MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-140.179.75.37-200 | 0.697MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-140.179.75.37-107 | 0.557MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-116 | 0.078MB
-  - 🇭🇰HK-20.24.87.112-507 | 0.011MB
+  - RELAY-172.67.128.43-099 | 1.658MB
+  - 🇭🇰HK-20.24.87.112-080 | 1.288MB
 rules:
 - MATCH,Global ©️
