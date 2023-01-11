@@ -17,30 +17,21 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-140.179.110.44-040 | 11.768MB
-  server: 117.wgong1.top
-  port: 52217
+- name: 🇨🇳CN-140.179.136.12-520 | 1.582MB
+  server: jp02.jafiyun.world
+  port: 21125
   type: vmess
-  uuid: 17a12c3d-937a-373c-8914-e1b66be24a45
+  uuid: 8981d321-7c19-3618-b506-31030d714b9d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.75.37-395 | 0.421MB
-  server: 121.wgong1.top
-  port: 52221
+- name: 🇺🇸US-18.144.52.97-390 | 0.06MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
+  port: 12356
   type: vmess
-  uuid: bc6f71d7-5a8c-3a70-8e75-0fcf4236be82
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-124.225.88.38-035 | 0.052MB
-  server: 122.wgong1.top
-  port: 52222
-  type: vmess
-  uuid: 17a12c3d-937a-373c-8914-e1b66be24a45
-  alterId: 2
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
@@ -118,8 +109,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.110.44-040 | 11.768MB
-  - 🇨🇳CN-140.179.75.37-395 | 0.421MB
-  - 🇨🇳CN-124.225.88.38-035 | 0.052MB
+  - 🇨🇳CN-140.179.136.12-520 | 1.582MB
+  - 🇺🇸US-18.144.52.97-390 | 0.06MB
 rules:
 - MATCH,Global ©️
