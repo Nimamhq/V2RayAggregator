@@ -1,3 +1,4 @@
 proxies:
-  - {name: 🇨🇳 CN-223.111.202.178-086, server: 112.wgong1.top, port: 52212, type: vmess, uuid: 7b1e6eef-5c88-3732-a559-8b2befa3ba0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-087, server: 111.wgong1.top, port: 52211, type: vmess, uuid: 7b1e6eef-5c88-3732-a559-8b2befa3ba0e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-140.179.136.12-447, server: jp02.jafiyun.world, port: 21125, type: vmess, uuid: 502e8c9e-cb14-31c2-969b-77f820962fb1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-140.179.136.12-480, server: jp02.jafiyun.world, port: 21125, type: vmess, uuid: 8dcc6744-3935-3fe5-ab27-23d3f61c4def, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-124.225.24.151-000, server: 124.wgong1.top, port: 52224, type: vmess, uuid: 92d76b26-a474-31b3-a8a2-71478e58201a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}

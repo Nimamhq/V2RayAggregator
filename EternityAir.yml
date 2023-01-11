@@ -17,20 +17,29 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-223.111.202.178-086 | 0.836MB
-  server: 112.wgong1.top
-  port: 52212
+- name: 🇨🇳CN-140.179.136.12-447 | 27.35MB
+  server: jp02.jafiyun.world
+  port: 21125
   type: vmess
-  uuid: 7b1e6eef-5c88-3732-a559-8b2befa3ba0e
+  uuid: 502e8c9e-cb14-31c2-969b-77f820962fb1
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-087 | 0.075MB
-  server: 111.wgong1.top
-  port: 52211
+- name: 🇨🇳CN-140.179.136.12-480 | 1.911MB
+  server: jp02.jafiyun.world
+  port: 21125
   type: vmess
-  uuid: 7b1e6eef-5c88-3732-a559-8b2befa3ba0e
+  uuid: 8dcc6744-3935-3fe5-ab27-23d3f61c4def
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.225.24.151-000 | 0.025MB
+  server: 124.wgong1.top
+  port: 52224
+  type: vmess
+  uuid: 92d76b26-a474-31b3-a8a2-71478e58201a
   alterId: 2
   cipher: auto
   tls: false
@@ -109,7 +118,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-086 | 0.836MB
-  - 🇨🇳CN-223.111.202.178-087 | 0.075MB
+  - 🇨🇳CN-140.179.136.12-447 | 27.35MB
+  - 🇨🇳CN-140.179.136.12-480 | 1.911MB
+  - 🇨🇳CN-124.225.24.151-000 | 0.025MB
 rules:
 - MATCH,Global ©️
