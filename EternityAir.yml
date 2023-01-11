@@ -17,29 +17,29 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-140.179.136.12-447 | 27.35MB
-  server: jp02.jafiyun.world
-  port: 21125
+- name: 🇨🇳CN-140.179.110.44-040 | 11.768MB
+  server: 117.wgong1.top
+  port: 52217
   type: vmess
-  uuid: 502e8c9e-cb14-31c2-969b-77f820962fb1
+  uuid: 17a12c3d-937a-373c-8914-e1b66be24a45
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-140.179.136.12-480 | 1.911MB
-  server: jp02.jafiyun.world
-  port: 21125
+- name: 🇨🇳CN-140.179.75.37-395 | 0.421MB
+  server: 121.wgong1.top
+  port: 52221
   type: vmess
-  uuid: 8dcc6744-3935-3fe5-ab27-23d3f61c4def
+  uuid: bc6f71d7-5a8c-3a70-8e75-0fcf4236be82
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-124.225.24.151-000 | 0.025MB
-  server: 124.wgong1.top
-  port: 52224
+- name: 🇨🇳CN-124.225.88.38-035 | 0.052MB
+  server: 122.wgong1.top
+  port: 52222
   type: vmess
-  uuid: 92d76b26-a474-31b3-a8a2-71478e58201a
+  uuid: 17a12c3d-937a-373c-8914-e1b66be24a45
   alterId: 2
   cipher: auto
   tls: false
@@ -118,8 +118,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-140.179.136.12-447 | 27.35MB
-  - 🇨🇳CN-140.179.136.12-480 | 1.911MB
-  - 🇨🇳CN-124.225.24.151-000 | 0.025MB
+  - 🇨🇳CN-140.179.110.44-040 | 11.768MB
+  - 🇨🇳CN-140.179.75.37-395 | 0.421MB
+  - 🇨🇳CN-124.225.88.38-035 | 0.052MB
 rules:
 - MATCH,Global ©️
