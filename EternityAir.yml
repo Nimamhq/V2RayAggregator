@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-242 | 254.657MB
-  server: can01.cf.ssru7.casa
+- name: RELAY-172.67.128.43-320 | 10.329MB
+  server: us02.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
+  uuid: 6618e294-987b-352f-9d2a-e6d8ae1975ef
   alterId: 0
   cipher: auto
   tls: true
@@ -30,133 +30,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-245 | 226.491MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-251 | 219.438MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-247 | 209.306MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-250 | 197.297MB
-  server: tr01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr01.ssru4.fun
-- name: 🇭🇰HK-20.205.0.89-210 | 138.461MB
-  server: az.hk01.ssru7.casa
-  port: 10018
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ssru.v2.us03.2yun.win
-- name: 🇭🇰HK-20.205.0.89-212 | 14.7MB
-  server: az.hk01.ssru7.casa
-  port: 10026
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us06.ssru4.fun
-- name: 🇭🇰HK-20.205.0.89-198 | 14.48MB
-  server: az.hk01.ssru7.casa
-  port: 10005
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: 🇭🇰HK-20.205.0.89-193 | 0.432MB
-  server: az.hk01.ssru7.casa
-  port: 10015
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.ssru4.fun
-- name: 🇭🇰HK-20.205.0.89-224 | 0.424MB
-  server: ah.yd01.ssru7.casa
-  port: 10007
-  type: vmess
-  uuid: 409affcf-5756-3564-9fdc-b0d7c14638f2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ssru.v2.jp01.2yun.win
+      Host: us02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -212,34 +86,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-242 | 254.657MB
-  - RELAY-172.67.128.43-245 | 226.491MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-251 | 219.438MB
-  - RELAY-172.67.128.43-247 | 209.306MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-250 | 197.297MB
-  - 🇭🇰HK-20.205.0.89-210 | 138.461MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-20.205.0.89-212 | 14.7MB
-  - 🇭🇰HK-20.205.0.89-198 | 14.48MB
-  - 🇭🇰HK-20.205.0.89-193 | 0.432MB
-  - 🇭🇰HK-20.205.0.89-224 | 0.424MB
+  - RELAY-172.67.128.43-320 | 10.329MB
 rules:
 - MATCH,Global ©️
