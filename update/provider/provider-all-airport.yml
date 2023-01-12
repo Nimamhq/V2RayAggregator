@@ -1,4 +1,2 @@
 proxies:
-  - {name: 🇨🇳 CN-223.111.202.178-348, server: 7.mxyun1.top, port: 41207, type: vmess, uuid: f3f88213-32a6-3e51-9c79-1a0c92bc8b2f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-011, server: 113.wgong1.top, port: 52213, type: vmess, uuid: 44ac27ca-3f59-370d-a3b1-d85f6ce0c284, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-033, server: 113.wgong1.top, port: 52213, type: vmess, uuid: 92ea7f47-dbd6-31c4-bcad-7db2b6f590ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 US-54.183.211.128-558, server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win, port: 12356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
