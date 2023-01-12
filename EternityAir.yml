@@ -17,42 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-124.225.88.38-391 | 267.769MB
-  server: 118.wgong1.top
-  port: 52218
+- name: 🇭🇰HK-20.24.225.95-211 | 0.274MB
+  server: az.hk01.ssru7.casa
+  port: 10015
   type: vmess
-  uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c
-  alterId: 2
+  uuid: 91c52485-e311-3cb7-98fc-88f95233b15a
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-124.225.88.38-388 | 247.721MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: b6ead149-545b-359c-99b1-7b998e4e0e3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-124.225.88.38-069 | 0.422MB
-  server: 122.wgong1.top
-  port: 52222
-  type: vmess
-  uuid: 9f93746e-6ca4-3b1e-be01-81327df07386
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-124.225.88.38-070 | 0.422MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: 9f93746e-6ca4-3b1e-be01-81327df07386
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -108,28 +86,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-124.225.88.38-391 | 267.769MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-124.225.88.38-388 | 247.721MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-124.225.88.38-069 | 0.422MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-124.225.88.38-070 | 0.422MB
+  - 🇭🇰HK-20.24.225.95-211 | 0.274MB
 rules:
 - MATCH,Global ©️
