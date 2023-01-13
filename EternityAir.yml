@@ -17,29 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.183.211.128-606 | 15.57MB
-  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
-  port: 12356
-  type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇭🇰HK-18.162.228.127-574 | 0.471MB
-  server: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win
+- name: RELAY-172.67.128.43-059 | 26.412MB
+  server: can01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  uuid: 43758ff3-a4f3-3f36-adbb-44ea085af719
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win
+      Host: can01.paopaocloud.cyou
 proxy-groups:
 - name: Global ©️
   type: select
@@ -114,7 +105,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.183.211.128-606 | 15.57MB
-  - 🇭🇰HK-18.162.228.127-574 | 0.471MB
+  - RELAY-172.67.128.43-059 | 26.412MB
 rules:
 - MATCH,Global ©️
