@@ -17,62 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-594 | 15.004MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 04458214-0a33-3a04-89eb-06cd541ab73e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-604 | 14.1MB
-  server: us02.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 04458214-0a33-3a04-89eb-06cd541ab73e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-603 | 14.065MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 04458214-0a33-3a04-89eb-06cd541ab73e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-599 | 0.431MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 04458214-0a33-3a04-89eb-06cd541ab73e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -128,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-594 | 15.004MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-604 | 14.1MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-603 | 14.065MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-599 | 0.431MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
