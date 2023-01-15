@@ -17,195 +17,160 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.219.8.251-270 | 0.473MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
+- name: 🇺🇸US-54.153.58.212-392 | 0.473MB
+  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+  port: 443
   type: vmess
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-000 | 0.442MB
-  server: 124.wgong1.top
-  port: 52224
+- name: 🇨🇳CN-203.156.217.4-057 | 0.339MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-203.156.217.4-053 | 0.326MB
+  server: tongzhi.838501.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-203.156.217.4-054 | 0.32MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-203.156.217.4-051 | 0.316MB
+  server: tongzhi.838501.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-120.79.53.229-352 | 0.295MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
+- name: 🇨🇳CN-120.79.53.229-349 | 0.29MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
+- name: 🇨🇳CN-203.156.217.4-055 | 0.281MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-120.79.53.229-350 | 0.274MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
+- name: 🇨🇳CN-120.79.53.229-060 | 0.262MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-120.79.53.229-061 | 0.252MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-120.79.53.229-351 | 0.233MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
+- name: 🇨🇳CN-120.79.53.229-058 | 0.229MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13852
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
+- name: 🇨🇳CN-120.240.45.3-000 | 0.229MB
+  server: 3.mxyun1.top
+  port: 41203
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
+  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-002 | 0.434MB
-  server: 122.wgong1.top
-  port: 52222
+- name: 🇨🇳CN-120.240.45.3-014 | 0.222MB
+  server: 17.mxyun1.top
+  port: 41117
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
+  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-003 | 0.398MB
-  server: 121.wgong1.top
-  port: 52221
+- name: 🇨🇳CN-120.240.45.3-015 | 0.219MB
+  server: 18.mxyun1.top
+  port: 41118
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
+  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-004 | 0.364MB
-  server: 120.wgong1.top
-  port: 52220
+- name: 🇨🇳CN-120.240.45.3-016 | 0.193MB
+  server: 19.mxyun1.top
+  port: 41119
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
+  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-005 | 0.354MB
-  server: 119.wgong1.top
-  port: 52219
+- name: 🇨🇳CN-120.240.45.3-017 | 0.191MB
+  server: 20.mxyun1.top
+  port: 41120
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
+  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-006 | 0.29MB
-  server: 118.wgong1.top
-  port: 52218
+- name: 🇨🇳CN-49.7.228.201-018 | 0.178MB
+  server: dxbeijing01.baipiaozf.com
+  port: 42625
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
+  uuid: fb0073ed-ec0e-4d7d-9e1d-ddc6cb36822c
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-007 | 0.267MB
-  server: 117.wgong1.top
-  port: 52217
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxbeijing01.baipiaozf.com
+- name: 🇨🇳CN-14.18.127.30-020 | 0.175MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 49490
   type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
+  uuid: fb0073ed-ec0e-4d7d-9e1d-ddc6cb36822c
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-008 | 0.257MB
-  server: 116.wgong1.top
-  port: 52216
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-009 | 0.234MB
-  server: 115.wgong1.top
-  port: 52215
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-010 | 0.212MB
-  server: 114.wgong1.top
-  port: 52214
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-011 | 0.21MB
-  server: 113.wgong1.top
-  port: 52213
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-012 | 0.21MB
-  server: 112.wgong1.top
-  port: 52212
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-013 | 0.21MB
-  server: 111.wgong1.top
-  port: 52211
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-014 | 0.21MB
-  server: 34.wgong1.top
-  port: 52234
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-015 | 0.207MB
-  server: 33.wgong1.top
-  port: 52233
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-016 | 0.199MB
-  server: 32.wgong1.top
-  port: 52232
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-36.156.222.6-017 | 0.192MB
-  server: 31.wgong1.top
-  port: 52231
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-018 | 0.192MB
-  server: 30.wgong1.top
-  port: 52230
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-019 | 0.188MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-020 | 0.098MB
-  server: 4.wgong1.top
-  port: 11204
-  type: vmess
-  uuid: 07a67d27-7c5c-3868-a491-5bf4da3b50d2
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
 proxy-groups:
 - name: Global ©️
   type: select
@@ -262,44 +227,43 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.219.8.251-270 | 0.473MB
-  - 🇨🇳CN-120.240.45.3-000 | 0.442MB
-  - 🇨🇳CN-120.240.45.3-002 | 0.434MB
-  - 🇨🇳CN-120.240.45.3-003 | 0.398MB
-  - 🇨🇳CN-120.240.45.3-004 | 0.364MB
+  - 🇺🇸US-54.153.58.212-392 | 0.473MB
+  - 🇨🇳CN-203.156.217.4-057 | 0.339MB
+  - 🇨🇳CN-203.156.217.4-053 | 0.326MB
+  - 🇨🇳CN-203.156.217.4-054 | 0.32MB
+  - 🇨🇳CN-203.156.217.4-051 | 0.316MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-005 | 0.354MB
-  - 🇨🇳CN-120.240.45.3-006 | 0.29MB
-  - 🇨🇳CN-120.240.45.3-007 | 0.267MB
-  - 🇨🇳CN-120.240.45.3-008 | 0.257MB
-  - 🇨🇳CN-120.240.45.3-009 | 0.234MB
+  - 🇨🇳CN-120.79.53.229-352 | 0.295MB
+  - 🇨🇳CN-120.79.53.229-349 | 0.29MB
+  - 🇨🇳CN-203.156.217.4-055 | 0.281MB
+  - 🇨🇳CN-120.79.53.229-350 | 0.274MB
+  - 🇨🇳CN-120.79.53.229-060 | 0.262MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-010 | 0.212MB
-  - 🇨🇳CN-223.111.202.178-011 | 0.21MB
-  - 🇨🇳CN-223.111.202.178-012 | 0.21MB
-  - 🇨🇳CN-223.111.202.178-013 | 0.21MB
-  - 🇨🇳CN-223.111.202.178-014 | 0.21MB
+  - 🇨🇳CN-120.79.53.229-061 | 0.252MB
+  - 🇨🇳CN-120.79.53.229-351 | 0.233MB
+  - 🇨🇳CN-120.79.53.229-058 | 0.229MB
+  - 🇨🇳CN-120.240.45.3-000 | 0.229MB
+  - 🇨🇳CN-120.240.45.3-014 | 0.222MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-015 | 0.207MB
-  - 🇨🇳CN-120.240.45.3-016 | 0.199MB
-  - 🇨🇳CN-36.156.222.6-017 | 0.192MB
-  - 🇨🇳CN-120.240.45.3-018 | 0.192MB
-  - 🇨🇳CN-120.240.45.3-019 | 0.188MB
-  - 🇨🇳CN-120.240.45.3-020 | 0.098MB
+  - 🇨🇳CN-120.240.45.3-015 | 0.219MB
+  - 🇨🇳CN-120.240.45.3-016 | 0.193MB
+  - 🇨🇳CN-120.240.45.3-017 | 0.191MB
+  - 🇨🇳CN-49.7.228.201-018 | 0.178MB
+  - 🇨🇳CN-14.18.127.30-020 | 0.175MB
 rules:
 - MATCH,Global ©️
