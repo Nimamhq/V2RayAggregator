@@ -17,137 +17,95 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.153.58.212-392 | 0.473MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
-  port: 443
+- name: 🇸🇬SG-13.212.125.55-595 | 1.072MB
+  server: 00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win
+  port: 12356
   type: vmess
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-203.156.217.4-057 | 0.339MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-203.156.217.4-053 | 0.326MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-203.156.217.4-054 | 0.32MB
+- name: NOWHERE-0.0.0.0-582 | 1.061MB
+  server: 00000000000000000000000000000000000000000000000000000000000022a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-203.156.217.4-618 | 0.889MB
   server: sh-jp-dx-iplc.810823.xyz
   port: 13082
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-203.156.217.4-051 | 0.316MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-203.156.217.4-616 | 0.885MB
   server: tongzhi.838501.xyz
   port: 13081
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-120.79.53.229-352 | 0.295MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-120.79.53.229-626 | 0.647MB
   server: sz-hk-bgp-iplc.810823.xyz
   port: 13065
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
-- name: 🇨🇳CN-120.79.53.229-349 | 0.29MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13082
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-203.156.217.4-614 | 0.64MB
+  server: tongzhi.838501.xyz
+  port: 13081
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
-- name: 🇨🇳CN-203.156.217.4-055 | 0.281MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-203.156.217.4-619 | 0.636MB
   server: sh-jp-dx-iplc.810823.xyz
   port: 13081
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-120.79.53.229-350 | 0.274MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
-- name: 🇨🇳CN-120.79.53.229-060 | 0.262MB
-  server: sz-hk-bgp-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-120.79.53.229-061 | 0.252MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-120.79.53.229-625 | 0.612MB
   server: sz-hk-bgp-iplc.810823.xyz
   port: 13001
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-120.79.53.229-351 | 0.233MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-120.79.53.229-623 | 0.606MB
   server: sz-hk-bgp-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-203.156.217.4-621 | 0.603MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-203.156.217.4-620 | 0.575MB
+  server: sh-jp-dx-iplc.810823.xyz
   port: 13001
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 30c0cc15-d4e1-453e-9fae-f74f8c63d6c1
-- name: 🇨🇳CN-120.79.53.229-058 | 0.229MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-120.79.53.229-622 | 0.558MB
   server: sz-hk-bgp-iplc.810823.xyz
   port: 13852
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ffaf532f-6ceb-4ba1-b0ff-4862a2944a43
-- name: 🇨🇳CN-120.240.45.3-000 | 0.229MB
-  server: 3.mxyun1.top
-  port: 41203
-  type: vmess
-  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-014 | 0.222MB
-  server: 17.mxyun1.top
-  port: 41117
-  type: vmess
-  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-015 | 0.219MB
-  server: 18.mxyun1.top
-  port: 41118
-  type: vmess
-  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-016 | 0.193MB
-  server: 19.mxyun1.top
-  port: 41119
-  type: vmess
-  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-017 | 0.191MB
-  server: 20.mxyun1.top
-  port: 41120
-  type: vmess
-  uuid: 3ad4dc30-bc97-3fb7-9e1c-75d5b53c615b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-49.7.228.201-018 | 0.178MB
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-120.79.53.229-624 | 0.528MB
+  server: sz-hk-bgp-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 63cabae8-6ea0-4888-b700-3978846e0154
+- name: 🇨🇳CN-49.7.228.201-000 | 0.527MB
   server: dxbeijing01.baipiaozf.com
   port: 42625
   type: vmess
-  uuid: fb0073ed-ec0e-4d7d-9e1d-ddc6cb36822c
+  uuid: 981dfa20-b08b-47a6-9ce8-7110bc712d1f
   alterId: 0
   cipher: auto
   tls: false
@@ -157,11 +115,11 @@ proxies:
     path: /
     headers:
       Host: dxbeijing01.baipiaozf.com
-- name: 🇨🇳CN-14.18.127.30-020 | 0.175MB
+- name: 🇨🇳CN-14.18.127.30-017 | 0.481MB
   server: gzct.xn--dlq110j6ul.cc
-  port: 49490
+  port: 34099
   type: vmess
-  uuid: fb0073ed-ec0e-4d7d-9e1d-ddc6cb36822c
+  uuid: 981dfa20-b08b-47a6-9ce8-7110bc712d1f
   alterId: 0
   cipher: auto
   tls: false
@@ -227,43 +185,38 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.153.58.212-392 | 0.473MB
-  - 🇨🇳CN-203.156.217.4-057 | 0.339MB
-  - 🇨🇳CN-203.156.217.4-053 | 0.326MB
-  - 🇨🇳CN-203.156.217.4-054 | 0.32MB
-  - 🇨🇳CN-203.156.217.4-051 | 0.316MB
+  - 🇸🇬SG-13.212.125.55-595 | 1.072MB
+  - NOWHERE-0.0.0.0-582 | 1.061MB
+  - 🇨🇳CN-203.156.217.4-618 | 0.889MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.79.53.229-352 | 0.295MB
-  - 🇨🇳CN-120.79.53.229-349 | 0.29MB
-  - 🇨🇳CN-203.156.217.4-055 | 0.281MB
-  - 🇨🇳CN-120.79.53.229-350 | 0.274MB
-  - 🇨🇳CN-120.79.53.229-060 | 0.262MB
+  - 🇨🇳CN-203.156.217.4-616 | 0.885MB
+  - 🇨🇳CN-120.79.53.229-626 | 0.647MB
+  - 🇨🇳CN-203.156.217.4-614 | 0.64MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.79.53.229-061 | 0.252MB
-  - 🇨🇳CN-120.79.53.229-351 | 0.233MB
-  - 🇨🇳CN-120.79.53.229-058 | 0.229MB
-  - 🇨🇳CN-120.240.45.3-000 | 0.229MB
-  - 🇨🇳CN-120.240.45.3-014 | 0.222MB
+  - 🇨🇳CN-203.156.217.4-619 | 0.636MB
+  - 🇨🇳CN-120.79.53.229-625 | 0.612MB
+  - 🇨🇳CN-120.79.53.229-623 | 0.606MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-015 | 0.219MB
-  - 🇨🇳CN-120.240.45.3-016 | 0.193MB
-  - 🇨🇳CN-120.240.45.3-017 | 0.191MB
-  - 🇨🇳CN-49.7.228.201-018 | 0.178MB
-  - 🇨🇳CN-14.18.127.30-020 | 0.175MB
+  - 🇨🇳CN-203.156.217.4-621 | 0.603MB
+  - 🇨🇳CN-203.156.217.4-620 | 0.575MB
+  - 🇨🇳CN-120.79.53.229-622 | 0.558MB
+  - 🇨🇳CN-120.79.53.229-624 | 0.528MB
+  - 🇨🇳CN-49.7.228.201-000 | 0.527MB
+  - 🇨🇳CN-14.18.127.30-017 | 0.481MB
 rules:
 - MATCH,Global ©️
