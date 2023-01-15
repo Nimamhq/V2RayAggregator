@@ -17,7 +17,24 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇨🇳CN-120.240.45.3-000 | 12.203MB
+  server: 3.mxyun1.top
+  port: 41203
+  type: vmess
+  uuid: 9a0a3ed3-ef4b-309b-a007-d43aa4d3f4c1
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-120.240.45.3-001 | 0.696MB
+  server: 4.mxyun1.top
+  port: 41204
+  type: vmess
+  uuid: 9a0a3ed3-ef4b-309b-a007-d43aa4d3f4c1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -92,6 +109,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-120.240.45.3-000 | 12.203MB
+  - 🇨🇳CN-120.240.45.3-001 | 0.696MB
 rules:
 - MATCH,Global ©️
