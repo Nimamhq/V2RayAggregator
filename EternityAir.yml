@@ -17,48 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-223.244.25.161-000 | 31.633MB
-  server: dxhefei01.baipiaozf.com
-  port: 32247
-  type: vmess
-  uuid: bc63c4d7-89d6-4aa0-939a-7ee0a4182de1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxhefei01.baipiaozf.com
-- name: 🇨🇳CN-222.217.95.177-001 | 2.788MB
-  server: dxnanning01.baipiaozf.com
-  port: 50971
-  type: vmess
-  uuid: bc63c4d7-89d6-4aa0-939a-7ee0a4182de1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxnanning01.baipiaozf.com
-- name: 🇨🇳CN-14.18.127.30-002 | 0.428MB
-  server: gzct.xn--dlq110j6ul.cc
-  port: 31964
-  type: vmess
-  uuid: bc63c4d7-89d6-4aa0-939a-7ee0a4182de1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzct.xn--dlq110j6ul.cc
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -133,8 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.244.25.161-000 | 31.633MB
-  - 🇨🇳CN-222.217.95.177-001 | 2.788MB
-  - 🇨🇳CN-14.18.127.30-002 | 0.428MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
