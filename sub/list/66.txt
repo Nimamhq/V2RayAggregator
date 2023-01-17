@@ -98,10 +98,8 @@
   - {name: 🇸🇬 :加拿大-trojan-99tw02.tfzhc.top:443-可用-中转:165.154.253.64-仅支持新加坡地区NF自制剧, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 99tw02.tfzhc.top, skip-cert-verify: false}
   - {name: 🇸🇬 :加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧, server: 921tw.tfzhc.top, port: 443, type: trojan, password: eb50af3d-5339-4ef7-8471-6cde8dff1ba9, sni: 921tw.tfzhc.top, skip-cert-verify: false}
   - {name: 🇨🇦 :加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix, server: free.biggerdogs.eu.org, port: 443, type: trojan, password: dcb86018-4dcf-4de1-b57a-722e4680ab63, skip-cert-verify: false}
-  - {name: 43.206.224.222:443, server: 43.206.224.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13.215.173.114:443, server: 13.215.173.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 13.215.163.54:443, server: 13.215.163.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 43.201.48.212:443, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13.215.51.220:443, server: 13.215.51.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 13.214.212.124:443, server: 13.214.212.124, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: "", server: 20.24.72.248, port: 80, type: vmess, uuid: 07c13c62-2dc1-4871-8aa0-c3d21568cd5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: " 2", server: 74.119.193.18, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
   - {name: " 3", server: 176.32.35.22, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fr-unlimitxxx}}
