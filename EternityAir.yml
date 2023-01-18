@@ -17,7 +17,48 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: RELAY-172.67.128.43-503 | 7.884MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: c6a1692e-298c-3324-899f-224d71539f96
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-370 | 6.932MB
+  server: uk01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 9cb1cfa9-27c7-34e8-9d6a-56b80f4e5679
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.158.188-359 | 6.687MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 9cb1cfa9-27c7-34e8-9d6a-56b80f4e5679
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
 proxy-groups:
 - name: Global ©️
   type: select
@@ -92,6 +133,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - RELAY-172.67.128.43-503 | 7.884MB
+  - RELAY-172.67.128.43-370 | 6.932MB
+  - RELAY-172.67.158.188-359 | 6.687MB
 rules:
 - MATCH,Global ©️
