@@ -1,2 +1,1 @@
 proxies:
-  - {name: RELAY-172.67.128.43-211, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 43178dd1-f44c-3ce9-9c1e-33d9c1eec038, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
