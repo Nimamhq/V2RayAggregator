@@ -17,123 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.240.45.3-364 | 28.503MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: 06de4b40-65d1-32c4-918c-2ddfaad56e0a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-372 | 26.645MB
-  server: 119.wgong1.top
-  port: 52219
-  type: vmess
-  uuid: 4688187a-bf6d-37a4-8ed6-4adaf28ddf17
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-148 | 1.92MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: 60b1469c-ba1d-32d0-ae00-64b27f23c52a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-367 | 1.535MB
-  server: 124.wgong1.top
-  port: 52224
-  type: vmess
-  uuid: 4688187a-bf6d-37a4-8ed6-4adaf28ddf17
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-345 | 1.417MB
-  server: 124.wgong1.top
-  port: 52224
-  type: vmess
-  uuid: 06de4b40-65d1-32c4-918c-2ddfaad56e0a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-144 | 1.337MB
-  server: 33.wgong1.top
-  port: 52233
-  type: vmess
-  uuid: 60b1469c-ba1d-32d0-ae00-64b27f23c52a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-426 | 1.134MB
-  server: 7.mxyun1.top
-  port: 41207
-  type: vmess
-  uuid: 9ea2c3b7-e1d6-3d53-af12-bdd2d1464c3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-347 | 0.274MB
-  server: 122.wgong1.top
-  port: 52222
-  type: vmess
-  uuid: 06de4b40-65d1-32c4-918c-2ddfaad56e0a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-346 | 0.256MB
-  server: 123.wgong1.top
-  port: 52223
-  type: vmess
-  uuid: 06de4b40-65d1-32c4-918c-2ddfaad56e0a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-136 | 0.254MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: 60b1469c-ba1d-32d0-ae00-64b27f23c52a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-350 | 0.251MB
-  server: 119.wgong1.top
-  port: 52219
-  type: vmess
-  uuid: 06de4b40-65d1-32c4-918c-2ddfaad56e0a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-132 | 0.215MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: 60b1469c-ba1d-32d0-ae00-64b27f23c52a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-637 | 0.21MB
-  server: 32.wgong1.top
-  port: 52232
-  type: vmess
-  uuid: 25969ef4-3da7-387c-9904-407da4898aa7
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -189,37 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.240.45.3-364 | 28.503MB
-  - 🇨🇳CN-120.240.45.3-372 | 26.645MB
-  - 🇨🇳CN-120.240.45.3-148 | 1.92MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.240.45.3-367 | 1.535MB
-  - 🇨🇳CN-120.240.45.3-345 | 1.417MB
-  - 🇨🇳CN-120.240.45.3-144 | 1.337MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.240.45.3-426 | 1.134MB
-  - 🇨🇳CN-120.240.45.3-347 | 0.274MB
-  - 🇨🇳CN-120.240.45.3-346 | 0.256MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-136 | 0.254MB
-  - 🇨🇳CN-120.240.45.3-350 | 0.251MB
-  - 🇨🇳CN-120.240.45.3-132 | 0.215MB
-  - 🇨🇳CN-120.240.45.3-637 | 0.21MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
