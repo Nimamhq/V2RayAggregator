@@ -1,5 +1,13 @@
 proxies:
-  - {name: RELAY-172.67.128.43-139, server: uk01.cf.ssru7.casa, port: 443, type: vmess, uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-133, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-138, server: tr01.cf.ssru7.casa, port: 443, type: vmess, uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr01.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-135, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
+  - {name: 🇨🇳 CN-120.240.45.3-125, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 0c6e19be-fd70-3398-8ec4-7ebaf510e5fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-354, server: 112.wgong1.top, port: 52212, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-353, server: 113.wgong1.top, port: 52213, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-363, server: 3.wgong1.top, port: 11203, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-070, server: 29.wgong1.top, port: 52229, type: vmess, uuid: c3d66cb0-6337-3365-9044-1a6638ca7ee5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-132, server: 111.wgong1.top, port: 52211, type: vmess, uuid: 0c6e19be-fd70-3398-8ec4-7ebaf510e5fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-068, server: 31.wgong1.top, port: 52231, type: vmess, uuid: c3d66cb0-6337-3365-9044-1a6638ca7ee5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-127, server: 116.wgong1.top, port: 52216, type: vmess, uuid: 0c6e19be-fd70-3398-8ec4-7ebaf510e5fe, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-361, server: 29.wgong1.top, port: 52229, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-351, server: 115.wgong1.top, port: 52215, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-352, server: 114.wgong1.top, port: 52214, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.240.45.3-358, server: 32.wgong1.top, port: 52232, type: vmess, uuid: dad2a31d-b673-39a8-bdfa-ce3781b47d26, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
