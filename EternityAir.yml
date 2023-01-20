@@ -17,384 +17,62 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.193.208.238-206 | 21.09MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
+- name: RELAY-172.67.128.43-139 | 1.239MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-000 | 20.65MB
-  server: 124.wgong1.top
-  port: 52224
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-133 | 1.217MB
+  server: ger01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
+  uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-002 | 19.353MB
-  server: 122.wgong1.top
-  port: 52222
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-138 | 0.206MB
+  server: tr01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
+  uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-003 | 18.941MB
-  server: 121.wgong1.top
-  port: 52221
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
+- name: RELAY-172.67.128.43-135 | 0.079MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
+  uuid: 1ede439b-7de7-36ca-8821-cb4bbfba5250
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-004 | 17.816MB
-  server: 120.wgong1.top
-  port: 52220
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-005 | 17.547MB
-  server: 119.wgong1.top
-  port: 52219
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-006 | 16.693MB
-  server: 118.wgong1.top
-  port: 52218
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-007 | 16.515MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-008 | 14.172MB
-  server: 116.wgong1.top
-  port: 52216
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-009 | 14.088MB
-  server: 115.wgong1.top
-  port: 52215
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-010 | 13.649MB
-  server: 114.wgong1.top
-  port: 52214
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-011 | 12.936MB
-  server: 113.wgong1.top
-  port: 52213
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-012 | 9.44MB
-  server: 112.wgong1.top
-  port: 52212
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-013 | 9.256MB
-  server: 111.wgong1.top
-  port: 52211
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-014 | 9.238MB
-  server: 34.wgong1.top
-  port: 52234
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-015 | 8.443MB
-  server: 33.wgong1.top
-  port: 52233
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-016 | 5.925MB
-  server: 32.wgong1.top
-  port: 52232
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-017 | 5.119MB
-  server: 31.wgong1.top
-  port: 52231
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-018 | 5.039MB
-  server: 30.wgong1.top
-  port: 52230
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-019 | 4.598MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-020 | 1.108MB
-  server: 4.wgong1.top
-  port: 11204
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-021 | 1.031MB
-  server: 3.wgong1.top
-  port: 11203
-  type: vmess
-  uuid: ad0c049d-355a-3b28-9a1e-85874576d055
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-022 | 0.993MB
-  server: 124.wgong1.top
-  port: 52224
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-023 | 0.943MB
-  server: 123.wgong1.top
-  port: 52223
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-024 | 0.793MB
-  server: 122.wgong1.top
-  port: 52222
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-025 | 0.708MB
-  server: 121.wgong1.top
-  port: 52221
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-026 | 0.706MB
-  server: 120.wgong1.top
-  port: 52220
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-027 | 0.663MB
-  server: 119.wgong1.top
-  port: 52219
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-028 | 0.638MB
-  server: 118.wgong1.top
-  port: 52218
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-029 | 0.637MB
-  server: 117.wgong1.top
-  port: 52217
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-030 | 0.559MB
-  server: 116.wgong1.top
-  port: 52216
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-031 | 0.472MB
-  server: 115.wgong1.top
-  port: 52215
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-032 | 0.457MB
-  server: 114.wgong1.top
-  port: 52214
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-033 | 0.453MB
-  server: 113.wgong1.top
-  port: 52213
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-034 | 0.421MB
-  server: 112.wgong1.top
-  port: 52212
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-035 | 0.401MB
-  server: 111.wgong1.top
-  port: 52211
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-036 | 0.391MB
-  server: 34.wgong1.top
-  port: 52234
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-037 | 0.379MB
-  server: 33.wgong1.top
-  port: 52233
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-038 | 0.376MB
-  server: 32.wgong1.top
-  port: 52232
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-039 | 0.354MB
-  server: 31.wgong1.top
-  port: 52231
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-040 | 0.349MB
-  server: 30.wgong1.top
-  port: 52230
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.240.45.3-041 | 0.348MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: 5f41d599-da29-326c-9dbe-db50ff1f1630
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -451,65 +129,27 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.193.208.238-206 | 21.09MB
-  - 🇨🇳CN-120.240.45.3-000 | 20.65MB
-  - 🇨🇳CN-120.240.45.3-002 | 19.353MB
-  - 🇨🇳CN-120.240.45.3-003 | 18.941MB
-  - 🇨🇳CN-120.240.45.3-004 | 17.816MB
-  - 🇨🇳CN-120.240.45.3-005 | 17.547MB
-  - 🇨🇳CN-120.240.45.3-006 | 16.693MB
-  - 🇨🇳CN-120.240.45.3-007 | 16.515MB
-  - 🇨🇳CN-120.240.45.3-008 | 14.172MB
-  - 🇨🇳CN-120.240.45.3-009 | 14.088MB
+  - RELAY-172.67.128.43-139 | 1.239MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-010 | 13.649MB
-  - 🇨🇳CN-120.240.45.3-011 | 12.936MB
-  - 🇨🇳CN-120.240.45.3-012 | 9.44MB
-  - 🇨🇳CN-120.240.45.3-013 | 9.256MB
-  - 🇨🇳CN-120.240.45.3-014 | 9.238MB
-  - 🇨🇳CN-120.240.45.3-015 | 8.443MB
-  - 🇨🇳CN-120.240.45.3-016 | 5.925MB
-  - 🇨🇳CN-120.240.45.3-017 | 5.119MB
-  - 🇨🇳CN-120.240.45.3-018 | 5.039MB
-  - 🇨🇳CN-120.240.45.3-019 | 4.598MB
+  - RELAY-172.67.128.43-133 | 1.217MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-020 | 1.108MB
-  - 🇨🇳CN-120.240.45.3-021 | 1.031MB
-  - 🇨🇳CN-120.240.45.3-022 | 0.993MB
-  - 🇨🇳CN-120.240.45.3-023 | 0.943MB
-  - 🇨🇳CN-120.240.45.3-024 | 0.793MB
-  - 🇨🇳CN-120.240.45.3-025 | 0.708MB
-  - 🇨🇳CN-120.240.45.3-026 | 0.706MB
-  - 🇨🇳CN-120.240.45.3-027 | 0.663MB
-  - 🇨🇳CN-120.240.45.3-028 | 0.638MB
-  - 🇨🇳CN-120.240.45.3-029 | 0.637MB
+  - RELAY-172.67.128.43-138 | 0.206MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-030 | 0.559MB
-  - 🇨🇳CN-120.240.45.3-031 | 0.472MB
-  - 🇨🇳CN-120.240.45.3-032 | 0.457MB
-  - 🇨🇳CN-120.240.45.3-033 | 0.453MB
-  - 🇨🇳CN-120.240.45.3-034 | 0.421MB
-  - 🇨🇳CN-120.240.45.3-035 | 0.401MB
-  - 🇨🇳CN-120.240.45.3-036 | 0.391MB
-  - 🇨🇳CN-120.240.45.3-037 | 0.379MB
-  - 🇨🇳CN-120.240.45.3-038 | 0.376MB
-  - 🇨🇳CN-120.240.45.3-039 | 0.354MB
-  - 🇨🇳CN-120.240.45.3-040 | 0.349MB
-  - 🇨🇳CN-120.240.45.3-041 | 0.348MB
+  - RELAY-172.67.128.43-135 | 0.079MB
 rules:
 - MATCH,Global ©️
