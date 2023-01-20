@@ -17,15 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.240.45.3-077 | 0.301MB
-  server: 20.mxyun1.top
-  port: 41120
-  type: vmess
-  uuid: f5f086bd-9fbf-38cb-a724-5c269df33b71
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -100,6 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.240.45.3-077 | 0.301MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

@@ -1,2 +1,1 @@
 proxies:
-  - {name: 🇨🇳 CN-120.240.45.3-077, server: 20.mxyun1.top, port: 41120, type: vmess, uuid: f5f086bd-9fbf-38cb-a724-5c269df33b71, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
