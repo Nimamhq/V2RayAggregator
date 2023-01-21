@@ -17,41 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-1.1.1.1-000 | 238.815MB
-  server: 1.1.1.1
-  port: 65535
+- name: RELAY-172.67.128.43-189 | 0.939MB
+  server: us02.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 50108ec7-7d3c-34ac-b588-ae40f555098b
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: RELAY-1.1.1.1-002 | 219.622MB
-  server: 1.1.1.1
-  port: 65535
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇭🇰HK-18.166.209.9-004 | 183.372MB
-  server: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 00000000000000000000000000000000000000000000000000000000000001a.node-for-bigairport.win
+      Host: us02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -126,8 +105,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-1.1.1.1-000 | 238.815MB
-  - RELAY-1.1.1.1-002 | 219.622MB
-  - 🇭🇰HK-18.166.209.9-004 | 183.372MB
+  - RELAY-172.67.128.43-189 | 0.939MB
 rules:
 - MATCH,Global ©️
