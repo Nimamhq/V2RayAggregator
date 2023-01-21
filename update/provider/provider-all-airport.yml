@@ -1,3 +1,1 @@
 proxies:
-  - {name: 🇨🇳 CN-120.240.45.3-050, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 14a92366-2440-3249-9eed-6511a3a36bac, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-120.240.45.3-104, server: 121.wgong1.top, port: 52221, type: vmess, uuid: 4b24e2a0-663c-3df3-8446-a36a01b60fad, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
