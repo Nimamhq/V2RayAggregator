@@ -17,7 +17,216 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇺🇸US-54.176.82.157-522 | 34.763MB
+  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-000 | 24.6MB
+  server: scloud56.jafiyun.world
+  port: 22056
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud56.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-001 | 4.194MB
+  server: scloud57.jafiyun.world
+  port: 22057
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud57.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-002 | 2.375MB
+  server: scloud58.jafiyun.world
+  port: 22058
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud58.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-003 | 2.159MB
+  server: scloud59.jafiyun.world
+  port: 22059
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud59.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-004 | 2.057MB
+  server: scloud60.jafiyun.world
+  port: 22060
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud60.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-005 | 1.832MB
+  server: jafi26.jafiyun.world
+  port: 22026
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-006 | 1.383MB
+  server: jafi27.jafiyun.world
+  port: 22027
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-007 | 1.249MB
+  server: scloud41.jafiyun.world
+  port: 22041
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud41.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-008 | 1.157MB
+  server: scloud42.jafiyun.world
+  port: 22042
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud42.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-009 | 1.066MB
+  server: scloud43.jafiyun.world
+  port: 22043
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud43.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-010 | 0.695MB
+  server: scloud52.jafiyun.world
+  port: 22052
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud52.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-011 | 0.628MB
+  server: scloud53.jafiyun.world
+  port: 22053
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud53.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-012 | 0.615MB
+  server: scloud54.jafiyun.world
+  port: 22054
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud54.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-013 | 0.587MB
+  server: jafi21.jafiyun.world
+  port: 22021
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-014 | 0.584MB
+  server: jafi22.jafiyun.world
+  port: 22022
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-015 | 0.573MB
+  server: scloud29.jafiyun.world
+  port: 22029
+  type: trojan
+  password: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  sni: scloud29.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-016 | 0.449MB
+  server: scloud30.jafiyun.world
+  port: 22030
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-017 | 0.436MB
+  server: scloud31.jafiyun.world
+  port: 22031
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-018 | 0.435MB
+  server: scloud32.jafiyun.world
+  port: 22032
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-019 | 0.414MB
+  server: scloud33.jafiyun.world
+  port: 22033
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-42.237.112.252-020 | 0.413MB
+  server: jafi19.jafiyun.world
+  port: 22019
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-021 | 0.41MB
+  server: sg01.jafiyun.world
+  port: 21104
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-022 | 0.405MB
+  server: sg02.jafiyun.world
+  port: 21105
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-218.201.23.199-023 | 0.357MB
+  server: sg03.jafiyun.world
+  port: 21106
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-120.240.45.157-024 | 0.309MB
+  server: jafi09.jafiyun.world
+  port: 22009
+  type: vmess
+  uuid: b58b27d8-eea6-3cd9-9a2f-133e298bccda
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +282,50 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-54.176.82.157-522 | 34.763MB
+  - 🇨🇳CN-42.237.112.252-000 | 24.6MB
+  - 🇨🇳CN-42.237.112.252-001 | 4.194MB
+  - 🇨🇳CN-42.237.112.252-002 | 2.375MB
+  - 🇨🇳CN-42.237.112.252-003 | 2.159MB
+  - 🇨🇳CN-42.237.112.252-004 | 2.057MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-118.212.143.3-005 | 1.832MB
+  - 🇨🇳CN-118.212.143.3-006 | 1.383MB
+  - 🇨🇳CN-218.201.23.199-007 | 1.249MB
+  - 🇨🇳CN-218.201.23.199-008 | 1.157MB
+  - 🇨🇳CN-218.201.23.199-009 | 1.066MB
+  - 🇨🇳CN-42.237.112.252-010 | 0.695MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-42.237.112.252-011 | 0.628MB
+  - 🇨🇳CN-42.237.112.252-012 | 0.615MB
+  - 🇨🇳CN-42.237.112.252-013 | 0.587MB
+  - 🇨🇳CN-42.237.112.252-014 | 0.584MB
+  - 🇨🇳CN-218.201.23.199-015 | 0.573MB
+  - 🇨🇳CN-218.201.23.199-016 | 0.449MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-42.237.112.252-017 | 0.436MB
+  - 🇨🇳CN-42.237.112.252-018 | 0.435MB
+  - 🇨🇳CN-42.237.112.252-019 | 0.414MB
+  - 🇨🇳CN-42.237.112.252-020 | 0.413MB
+  - 🇨🇳CN-218.201.23.199-021 | 0.41MB
+  - 🇨🇳CN-218.201.23.199-022 | 0.405MB
+  - 🇨🇳CN-218.201.23.199-023 | 0.357MB
+  - 🇨🇳CN-120.240.45.157-024 | 0.309MB
 rules:
 - MATCH,Global ©️
