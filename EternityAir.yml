@@ -17,48 +17,24 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-327 | 0.695MB
-  server: lu01.cf.ssru7.casa
+- name: 🇺🇸US-3.101.39.141-150 | 0.309MB
+  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
   port: 443
   type: vmess
-  uuid: ab6f4a59-5c57-3263-8fce-216dc7329c66
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-526 | 0.582MB
-  server: ger01.cf.ssru7.casa
+- name: 🇰🇷KR-3.36.63.26-148 | 0.277MB
+  server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win
   port: 443
   type: vmess
-  uuid: d99e20dc-62fb-328e-a69c-7486137417e8
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-528 | 0.58MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: d99e20dc-62fb-328e-a69c-7486137417e8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -133,8 +109,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-327 | 0.695MB
-  - RELAY-172.67.128.43-526 | 0.582MB
-  - RELAY-172.67.128.43-528 | 0.58MB
+  - 🇺🇸US-3.101.39.141-150 | 0.309MB
+  - 🇰🇷KR-3.36.63.26-148 | 0.277MB
 rules:
 - MATCH,Global ©️
