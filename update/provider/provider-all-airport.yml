@@ -1,13 +1,1 @@
 proxies:
-  - {name: 🇨🇳 CN-203.156.217.4-078, server: sh-jp-dx-iplc.810823.xyz, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: 4b32a49a-3af1-4934-a724-c209ed0c8298}
-  - {name: 🇨🇳 CN-203.156.217.4-079, server: sh-jp-dx-iplc.810823.xyz, port: 13065, type: ss, cipher: chacha20-ietf-poly1305, password: 4b32a49a-3af1-4934-a724-c209ed0c8298}
-  - {name: 🇨🇳 CN-203.156.217.4-077, server: sh-jp-dx-iplc.810823.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 4b32a49a-3af1-4934-a724-c209ed0c8298}
-  - {name: 🇨🇳 CN-203.156.217.4-073, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 4b32a49a-3af1-4934-a724-c209ed0c8298}
-  - {name: 🇨🇳 CN-203.156.217.4-075, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 4b32a49a-3af1-4934-a724-c209ed0c8298}
-  - {name: 🇨🇳 CN-114.80.34.162-304, server: shct.xn--dlq110j6ul.cc, port: 38318, type: vmess, uuid: 666477f5-59f6-4da8-b6e8-407f5cd09cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shct.xn--dlq110j6ul.cc}}}
-  - {name: 🇨🇳 CN-180.102.17.44-324, server: dxnanjing01.baipiaozf.com, port: 34398, type: vmess, uuid: 666477f5-59f6-4da8-b6e8-407f5cd09cbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dxnanjing01.baipiaozf.com}}}
-  - {name: 🇨🇳 CN-42.237.112.252-002, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 3b5b7b46-1ad3-33b7-a4f8-fec5e5ac8890, sni: scloud58.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-42.237.112.252-003, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 3b5b7b46-1ad3-33b7-a4f8-fec5e5ac8890, sni: scloud59.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-004, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: 3b5b7b46-1ad3-33b7-a4f8-fec5e5ac8890, sni: scloud60.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-005, server: jafi26.jafiyun.world, port: 22026, type: vmess, uuid: 3b5b7b46-1ad3-33b7-a4f8-fec5e5ac8890, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-006, server: jafi27.jafiyun.world, port: 22027, type: vmess, uuid: 3b5b7b46-1ad3-33b7-a4f8-fec5e5ac8890, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
