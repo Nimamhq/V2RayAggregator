@@ -17,7 +17,463 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇺🇸US-54.193.208.2-506 | 10.619MB
+  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-124.226.213.250-000 | 8.728MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-124.226.218.214-002 | 8.181MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-124.225.78.36-004 | 8.172MB
+  server: dxhainan.bpzhuanfa.com
+  port: 44718
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxhainan.bpzhuanfa.com
+- name: 🇨🇳CN-49.7.228.201-005 | 6.718MB
+  server: dxbeijing01.baipiaozf.com
+  port: 27480
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxbeijing01.baipiaozf.com
+- name: 🇨🇳CN-180.102.17.44-006 | 6.348MB
+  server: dxnanjing01.baipiaozf.com
+  port: 16686
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxnanjing01.baipiaozf.com
+- name: 🇨🇳CN-120.240.45.159-007 | 6.32MB
+  server: gzcm.xn--dlq110j6ul.cc
+  port: 58563
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzcm.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-49.7.182.211-008 | 6.211MB
+  server: bjct.xn--dlq110j6ul.cc
+  port: 45468
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bjct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-222.84.254.82-009 | 5.745MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 17219
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-111.48.129.244-010 | 5.281MB
+  server: bqjlv88eurll0umspp.ziir.cn
+  port: 44123
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bqjlv88eurll0umspp.ziir.cn
+- name: 🇨🇳CN-14.29.172.184-011 | 5.029MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 35758
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-27.150.174.128-012 | 4.644MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 44195
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-111.48.129.244-013 | 4.464MB
+  server: bqjlv88eurll0umspp.ziir.cn
+  port: 49761
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bqjlv88eurll0umspp.ziir.cn
+- name: 🇨🇳CN-14.116.158.173-014 | 4.454MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 18995
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-111.48.129.244-016 | 4.399MB
+  server: bqjlv88eurll0umspp.ziir.cn
+  port: 39332
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bqjlv88eurll0umspp.ziir.cn
+- name: 🇨🇳CN-14.29.172.184-017 | 4.272MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 46519
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-14.29.172.184-018 | 4.256MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 34099
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-27.150.174.128-019 | 4.188MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 33726
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-111.48.129.244-020 | 3.866MB
+  server: bqjlv88eurll0umspp.ziir.cn
+  port: 31971
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bqjlv88eurll0umspp.ziir.cn
+- name: 🇨🇳CN-110.52.234.94-021 | 3.729MB
+  server: cu.kapoknode.com
+  port: 25902
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cu.kapoknode.com
+- name: 🇨🇳CN-111.48.129.244-022 | 3.698MB
+  server: bqjlv88eurll0umspp.ziir.cn
+  port: 23894
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bqjlv88eurll0umspp.ziir.cn
+- name: 🇨🇳CN-124.225.78.36-023 | 3.183MB
+  server: dxhainan.bpzhuanfa.com
+  port: 49128
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxhainan.bpzhuanfa.com
+- name: 🇨🇳CN-180.102.17.44-024 | 2.563MB
+  server: dxnanjing01.baipiaozf.com
+  port: 34398
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxnanjing01.baipiaozf.com
+- name: 🇨🇳CN-14.29.172.184-025 | 2.557MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 44389
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-49.7.228.201-026 | 2.239MB
+  server: dxbeijing01.baipiaozf.com
+  port: 42625
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxbeijing01.baipiaozf.com
+- name: 🇨🇳CN-14.116.158.173-027 | 2.052MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 45994
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-121.204.163.149-028 | 1.97MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 28028
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-110.52.234.88-030 | 1.703MB
+  server: cscu.xn--dlq110j6ul.cc
+  port: 33346
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cscu.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-121.204.163.149-031 | 0.323MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 48640
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-49.7.228.201-032 | 0.316MB
+  server: dxbeijing01.baipiaozf.com
+  port: 64546
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxbeijing01.baipiaozf.com
+- name: 🇨🇳CN-180.102.17.44-033 | 0.225MB
+  server: dxnanjing01.baipiaozf.com
+  port: 59256
+  type: vmess
+  uuid: 2d6d2081-8852-4470-b3dc-7722ff59a1e0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxnanjing01.baipiaozf.com
+- name: 🇨🇳CN-222.218.194.179-034 | 0.106MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
+  type: vmess
+  uuid: 71acf5a5-2908-47fa-ac62-7fe738cdb82a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-222.84.254.82-036 | 0.055MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
+  type: vmess
+  uuid: 71acf5a5-2908-47fa-ac62-7fe738cdb82a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +529,57 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-54.193.208.2-506 | 10.619MB
+  - 🇨🇳CN-124.226.213.250-000 | 8.728MB
+  - 🇨🇳CN-124.226.218.214-002 | 8.181MB
+  - 🇨🇳CN-124.225.78.36-004 | 8.172MB
+  - 🇨🇳CN-49.7.228.201-005 | 6.718MB
+  - 🇨🇳CN-180.102.17.44-006 | 6.348MB
+  - 🇨🇳CN-120.240.45.159-007 | 6.32MB
+  - 🇨🇳CN-49.7.182.211-008 | 6.211MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-222.84.254.82-009 | 5.745MB
+  - 🇨🇳CN-111.48.129.244-010 | 5.281MB
+  - 🇨🇳CN-14.29.172.184-011 | 5.029MB
+  - 🇨🇳CN-27.150.174.128-012 | 4.644MB
+  - 🇨🇳CN-111.48.129.244-013 | 4.464MB
+  - 🇨🇳CN-14.116.158.173-014 | 4.454MB
+  - 🇨🇳CN-111.48.129.244-016 | 4.399MB
+  - 🇨🇳CN-14.29.172.184-017 | 4.272MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-14.29.172.184-018 | 4.256MB
+  - 🇨🇳CN-27.150.174.128-019 | 4.188MB
+  - 🇨🇳CN-111.48.129.244-020 | 3.866MB
+  - 🇨🇳CN-110.52.234.94-021 | 3.729MB
+  - 🇨🇳CN-111.48.129.244-022 | 3.698MB
+  - 🇨🇳CN-124.225.78.36-023 | 3.183MB
+  - 🇨🇳CN-180.102.17.44-024 | 2.563MB
+  - 🇨🇳CN-14.29.172.184-025 | 2.557MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-49.7.228.201-026 | 2.239MB
+  - 🇨🇳CN-14.116.158.173-027 | 2.052MB
+  - 🇨🇳CN-121.204.163.149-028 | 1.97MB
+  - 🇨🇳CN-110.52.234.88-030 | 1.703MB
+  - 🇨🇳CN-121.204.163.149-031 | 0.323MB
+  - 🇨🇳CN-49.7.228.201-032 | 0.316MB
+  - 🇨🇳CN-180.102.17.44-033 | 0.225MB
+  - 🇨🇳CN-222.218.194.179-034 | 0.106MB
+  - 🇨🇳CN-222.84.254.82-036 | 0.055MB
 rules:
 - MATCH,Global ©️
