@@ -17,20 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-225 | 0.275MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 4e8060f5-ebea-305f-87b2-e0250ab9f12a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -105,6 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-225 | 0.275MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
