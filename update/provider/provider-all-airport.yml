@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 US-54.193.208.2-405, server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win, port: 443, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-225, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 4e8060f5-ebea-305f-87b2-e0250ab9f12a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
