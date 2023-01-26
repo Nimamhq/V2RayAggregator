@@ -17,118 +17,48 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-142 | 11.307MB
-  server: us02.cf.ssru7.casa
-  port: 443
+- name: 🇨🇳CN-124.226.213.250-000 | 294.835MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
   type: vmess
-  uuid: ab8be74a-7321-3b63-b872-025c67104937
+  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-141 | 10.741MB
-  server: uk01.cf.ssru7.casa
-  port: 443
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-124.226.218.214-002 | 0.322MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 36140
   type: vmess
-  uuid: ab8be74a-7321-3b63-b872-025c67104937
+  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-217 | 10.6MB
-  server: uk01.cf.ssru7.casa
-  port: 443
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-124.225.78.36-004 | 0.313MB
+  server: dxhainan.bpzhuanfa.com
+  port: 44718
   type: vmess
-  uuid: 4e898f53-a4f4-30ce-9c8d-9f5bada429d3
+  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-137 | 10.486MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ab8be74a-7321-3b63-b872-025c67104937
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-213 | 10.132MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 4e898f53-a4f4-30ce-9c8d-9f5bada429d3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.158.188-206 | 9.071MB
-  server: aus01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 4e898f53-a4f4-30ce-9c8d-9f5bada429d3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aus01.paopaocloud.cyou
-- name: RELAY-172.67.128.43-211 | 8.798MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 4e898f53-a4f4-30ce-9c8d-9f5bada429d3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.158.188-130 | 8.023MB
-  server: aus01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ab8be74a-7321-3b63-b872-025c67104937
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aus01.paopaocloud.cyou
+      Host: dxhainan.bpzhuanfa.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -184,32 +114,27 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-142 | 11.307MB
-  - RELAY-172.67.128.43-141 | 10.741MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-217 | 10.6MB
-  - RELAY-172.67.128.43-137 | 10.486MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-213 | 10.132MB
-  - RELAY-172.67.158.188-206 | 9.071MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-211 | 8.798MB
-  - RELAY-172.67.158.188-130 | 8.023MB
+  - 🇨🇳CN-124.226.213.250-000 | 294.835MB
+  - 🇨🇳CN-124.226.218.214-002 | 0.322MB
+  - 🇨🇳CN-124.225.78.36-004 | 0.313MB
 rules:
 - MATCH,Global ©️
