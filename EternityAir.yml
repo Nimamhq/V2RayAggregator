@@ -17,48 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-124.226.213.250-000 | 294.835MB
-  server: gxct.xn--dlq110j6ul.cc
-  port: 36140
-  type: vmess
-  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gxct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-124.226.218.214-002 | 0.322MB
-  server: gxct.xn--dlq110j6ul.cc
-  port: 36140
-  type: vmess
-  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gxct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-124.225.78.36-004 | 0.313MB
-  server: dxhainan.bpzhuanfa.com
-  port: 44718
-  type: vmess
-  uuid: 976183ea-7365-4c3e-bc84-b26492f6b9e6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dxhainan.bpzhuanfa.com
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -133,8 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-124.226.213.250-000 | 294.835MB
-  - 🇨🇳CN-124.226.218.214-002 | 0.322MB
-  - 🇨🇳CN-124.225.78.36-004 | 0.313MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
