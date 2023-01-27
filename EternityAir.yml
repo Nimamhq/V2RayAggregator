@@ -17,13 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-42.237.112.252-000 | 2.584MB
-  server: scloud56.jafiyun.world
-  port: 22056
-  type: trojan
-  password: c318fb3b-a571-3304-9df9-456305ba0a1b
-  sni: scloud56.jafiyun.world
+- name: RELAY-172.67.128.43-069 | 12.623MB
+  server: us02.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 7086d3ad-3fd2-3672-a06f-465c87511531
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -98,6 +105,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-42.237.112.252-000 | 2.584MB
+  - RELAY-172.67.128.43-069 | 12.623MB
 rules:
 - MATCH,Global ©️
