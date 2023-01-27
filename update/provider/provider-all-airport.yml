@@ -1,4 +1,1 @@
 proxies:
-  - {name: RELAY-172.67.128.43-420, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: b5584129-5576-3306-9d20-1990cbf54ea8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
-  - {name: RELAY-172.67.128.43-422, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: b5584129-5576-3306-9d20-1990cbf54ea8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
-  - {name: RELAY-172.67.128.43-627, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 6aa7e728-c2a3-3154-bdde-0565878b1b97, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
