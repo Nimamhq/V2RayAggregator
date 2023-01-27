@@ -17,62 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-246 | 17.071MB
-  server: us02.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 096637e0-8b28-3c27-b1cb-b75f74ff490e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-169 | 13.592MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ece32677-128c-378d-af9d-f109ef98b2c1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-239 | 1.87MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 096637e0-8b28-3c27-b1cb-b75f74ff490e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-163 | 0.302MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: ece32677-128c-378d-af9d-f109ef98b2c1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -128,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-246 | 17.071MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-169 | 13.592MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-239 | 1.87MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-163 | 0.302MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
