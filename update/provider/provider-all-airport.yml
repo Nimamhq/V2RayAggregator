@@ -1,1 +1,2 @@
 proxies:
+  - {name: 🇨🇳 CN-42.237.112.252-000, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: c318fb3b-a571-3304-9df9-456305ba0a1b, sni: scloud56.jafiyun.world, skip-cert-verify: false}
