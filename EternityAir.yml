@@ -17,20 +17,15 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-225 | 2.545MB
-  server: us02.cf.ssru7.casa
+- name: 🇯🇵JP-13.231.212.38-097 | 0.934MB
+  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
   port: 443
   type: vmess
-  uuid: 31498fc8-901d-3b2a-a966-94d8c764f702
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -105,6 +100,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-225 | 2.545MB
+  - 🇯🇵JP-13.231.212.38-097 | 0.934MB
 rules:
 - MATCH,Global ©️
