@@ -1,3 +1,2 @@
 proxies:
-  - {name: 🇨🇳 CN-183.255.106.63-473, server: 118.wgong1.top, port: 52218, type: vmess, uuid: 699ca230-5e92-3879-9cdf-77f852293572, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.209-207, server: 4.wgong1.top, port: 11204, type: vmess, uuid: eb3dd55f-efd9-36f2-8d4d-5bb7cd619922, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-225, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 31498fc8-901d-3b2a-a966-94d8c764f702, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
