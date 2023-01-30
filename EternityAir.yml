@@ -17,29 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.176.115.4-060 | 0.977MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
-  port: 443
+- name: 🇺🇸US-13.52.231.247-118 | 34.255MB
+  server: 00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win
+  port: 12356
   type: vmess
   uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 🇯🇵JP-18.183.71.60-069 | 0.855MB
-  server: 00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win
-  port: 52356
+- name: 🇨🇳CN-183.222.27.52-312 | 32.655MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 48781
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.244.25.161-000 | 0.853MB
-  server: dxhefei01.baipiaozf.com
-  port: 32247
-  type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 9f53aaf9-6664-4220-a8ec-7eb3d52fe94a
   alterId: 0
   cipher: auto
   tls: false
@@ -48,12 +39,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: dxhefei01.baipiaozf.com
-- name: 🇨🇳CN-222.84.254.82-001 | 0.812MB
-  server: gxct.xn--dlq110j6ul.cc
-  port: 27520
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-179 | 31.812MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 48781
   type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 7954d341-2df5-48a3-8d28-0cf47785471a
   alterId: 0
   cipher: auto
   tls: false
@@ -62,12 +53,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: gxct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-14.18.124.138-002 | 0.566MB
-  server: gddx.fastestcloud.xyz
-  port: 40000
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-451 | 22.927MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 48781
   type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 0d45b5bb-23d7-4d94-b2ff-3ee59dda4c93
   alterId: 0
   cipher: auto
   tls: false
@@ -76,12 +67,96 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: gddx.fastestcloud.xyz
-- name: 🇨🇳CN-121.204.163.149-003 | 0.554MB
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-385 | 11.752MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 48781
+  type: vmess
+  uuid: 7d0b6c2b-d326-4189-a66b-3cd634a3e747
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-181 | 10.342MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 38883
+  type: vmess
+  uuid: 7954d341-2df5-48a3-8d28-0cf47785471a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-453 | 8.737MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 38883
+  type: vmess
+  uuid: 0d45b5bb-23d7-4d94-b2ff-3ee59dda4c93
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-314 | 8.489MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 38883
+  type: vmess
+  uuid: 9f53aaf9-6664-4220-a8ec-7eb3d52fe94a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-183.222.27.52-387 | 8.042MB
+  server: ydsichuan01.bpzhuanfa.com
+  port: 38883
+  type: vmess
+  uuid: 7d0b6c2b-d326-4189-a66b-3cd634a3e747
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ydsichuan01.bpzhuanfa.com
+- name: 🇨🇳CN-114.80.34.132-323 | 6.531MB
+  server: gzct.xn--dlq110j6ul.cc
+  port: 18995
+  type: vmess
+  uuid: 9f53aaf9-6664-4220-a8ec-7eb3d52fe94a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-27.150.174.128-481 | 4.142MB
   server: shct.xn--dlq110j6ul.cc
-  port: 20598
+  port: 48640
   type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 0d45b5bb-23d7-4d94-b2ff-3ee59dda4c93
   alterId: 0
   cipher: auto
   tls: false
@@ -91,11 +166,11 @@ proxies:
     path: /
     headers:
       Host: shct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-124.226.213.250-004 | 0.384MB
+- name: 🇨🇳CN-222.218.194.179-006 | 0.865MB
   server: gxct.xn--dlq110j6ul.cc
-  port: 48395
+  port: 26478
   type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 6c53196c-2a3b-43dc-8c14-c3da93315cc9
   alterId: 0
   cipher: auto
   tls: false
@@ -105,11 +180,25 @@ proxies:
     path: /
     headers:
       Host: gxct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-121.204.163.149-005 | 0.243MB
-  server: shct.xn--dlq110j6ul.cc
-  port: 24201
+- name: 🇨🇳CN-119.96.23.85-007 | 0.456MB
+  server: cscu.xn--dlq110j6ul.cc
+  port: 28621
   type: vmess
-  uuid: 2b4d6e88-3eda-4346-be84-1562f158c716
+  uuid: 6c53196c-2a3b-43dc-8c14-c3da93315cc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cscu.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-121.204.163.149-008 | 0.239MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 15800
+  type: vmess
+  uuid: 6c53196c-2a3b-43dc-8c14-c3da93315cc9
   alterId: 0
   cipher: auto
   tls: false
@@ -119,6 +208,34 @@ proxies:
     path: /
     headers:
       Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-114.80.32.2-009 | 0.23MB
+  server: dxshanghai.bpzhuanfa.com
+  port: 25653
+  type: vmess
+  uuid: 6c53196c-2a3b-43dc-8c14-c3da93315cc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxshanghai.bpzhuanfa.com
+- name: 🇨🇳CN-114.80.32.2-010 | 0.121MB
+  server: dxshanghai.bpzhuanfa.com
+  port: 35329
+  type: vmess
+  uuid: 6c53196c-2a3b-43dc-8c14-c3da93315cc9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxshanghai.bpzhuanfa.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -175,31 +292,39 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.176.115.4-060 | 0.977MB
-  - 🇯🇵JP-18.183.71.60-069 | 0.855MB
+  - 🇺🇸US-13.52.231.247-118 | 34.255MB
+  - 🇨🇳CN-183.222.27.52-312 | 32.655MB
+  - 🇨🇳CN-183.222.27.52-179 | 31.812MB
+  - 🇨🇳CN-183.222.27.52-451 | 22.927MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.244.25.161-000 | 0.853MB
-  - 🇨🇳CN-222.84.254.82-001 | 0.812MB
+  - 🇨🇳CN-183.222.27.52-385 | 11.752MB
+  - 🇨🇳CN-183.222.27.52-181 | 10.342MB
+  - 🇨🇳CN-183.222.27.52-453 | 8.737MB
+  - 🇨🇳CN-183.222.27.52-314 | 8.489MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.18.124.138-002 | 0.566MB
-  - 🇨🇳CN-121.204.163.149-003 | 0.554MB
+  - 🇨🇳CN-183.222.27.52-387 | 8.042MB
+  - 🇨🇳CN-114.80.34.132-323 | 6.531MB
+  - 🇨🇳CN-27.150.174.128-481 | 4.142MB
+  - 🇨🇳CN-222.218.194.179-006 | 0.865MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-124.226.213.250-004 | 0.384MB
-  - 🇨🇳CN-121.204.163.149-005 | 0.243MB
+  - 🇨🇳CN-119.96.23.85-007 | 0.456MB
+  - 🇨🇳CN-121.204.163.149-008 | 0.239MB
+  - 🇨🇳CN-114.80.32.2-009 | 0.23MB
+  - 🇨🇳CN-114.80.32.2-010 | 0.121MB
 rules:
 - MATCH,Global ©️
