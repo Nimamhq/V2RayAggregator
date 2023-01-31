@@ -1,2 +1,12 @@
 proxies:
-  - {name: RELAY-172.67.128.43-083, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: cf53cc4e-4dea-3565-a336-0de2b96ff7cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
+  - {name: 🇨🇳 CN-223.111.202.178-000, server: 3.mxyun1.top, port: 41203, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.178-001, server: 4.mxyun1.top, port: 41204, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.209-002, server: 5.mxyun1.top, port: 41205, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.209-003, server: 6.mxyun1.top, port: 41206, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.209-004, server: 7.mxyun1.top, port: 41207, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.209-005, server: 8.mxyun1.top, port: 41208, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.209-006, server: 9.mxyun1.top, port: 41109, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.178-007, server: 10.mxyun1.top, port: 41110, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.178-008, server: 11.mxyun1.top, port: 41111, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-223.111.202.178-009, server: 12.mxyun1.top, port: 41112, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.255.106.64-010, server: 13.mxyun1.top, port: 41113, type: vmess, uuid: 6aa40017-ee9f-3c1b-a353-79a1fe8179e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
