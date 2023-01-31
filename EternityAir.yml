@@ -17,75 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-114.80.34.144-156 | 0.259MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: d4d15b5e-8a9f-48de-814e-44a34c5cdb63
-- name: 🇨🇳CN-223.111.202.209-000 | 0.206MB
-  server: 3.wgong1.top
-  port: 11203
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.209-001 | 0.193MB
-  server: 4.wgong1.top
-  port: 11204
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.209-002 | 0.188MB
-  server: 29.wgong1.top
-  port: 52229
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.209-003 | 0.182MB
-  server: 30.wgong1.top
-  port: 52230
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.209-004 | 0.176MB
-  server: 31.wgong1.top
-  port: 52231
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-005 | 0.158MB
-  server: 32.wgong1.top
-  port: 52232
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-006 | 0.14MB
-  server: 33.wgong1.top
-  port: 52233
-  type: vmess
-  uuid: fae90d37-39ad-3c18-a07a-f9121e2635d3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -141,32 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-114.80.34.144-156 | 0.259MB
-  - 🇨🇳CN-223.111.202.209-000 | 0.206MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-223.111.202.209-001 | 0.193MB
-  - 🇨🇳CN-223.111.202.209-002 | 0.188MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-223.111.202.209-003 | 0.182MB
-  - 🇨🇳CN-223.111.202.209-004 | 0.176MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.178-005 | 0.158MB
-  - 🇨🇳CN-223.111.202.178-006 | 0.14MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
