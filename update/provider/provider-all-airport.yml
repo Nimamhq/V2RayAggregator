@@ -1,6 +1,2 @@
 proxies:
-  - {name: 🇯🇵 JP-52.199.226.252-454, server: 00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win, port: 52356, type: vmess, uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-42.237.112.252-000, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: 2fa05aa2-3439-3243-a989-2945927e4216, sni: scloud56.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-001, server: scloud57.jafiyun.world, port: 22057, type: trojan, password: 2fa05aa2-3439-3243-a989-2945927e4216, sni: scloud57.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-002, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 2fa05aa2-3439-3243-a989-2945927e4216, sni: scloud58.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-42.237.112.252-003, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 2fa05aa2-3439-3243-a989-2945927e4216, sni: scloud59.jafiyun.world, skip-cert-verify: false}
+  - {name: RELAY-172.67.128.43-083, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: cf53cc4e-4dea-3565-a336-0de2b96ff7cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
