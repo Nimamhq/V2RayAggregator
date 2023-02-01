@@ -17,33 +17,34 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-223.111.202.209-266 | 1.536MB
-  server: 9.mxyun1.top
-  port: 41109
+- name: RELAY-172.67.128.43-225 | 7.647MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: dcf470cb-dc84-3332-abae-e5dff5dfe7b8
-  alterId: 2
+  uuid: 028d469d-f7ae-3944-85a3-c487b827fe6b
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-287 | 1.123MB
-  server: 112.wgong1.top
-  port: 52212
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-221 | 2.185MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 2952f207-b6e0-3274-b5b8-73d70673def7
-  alterId: 2
+  uuid: 028d469d-f7ae-3944-85a3-c487b827fe6b
+  alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇨🇳CN-223.111.202.178-212 | 0.408MB
-  server: 111.wgong1.top
-  port: 52211
-  type: vmess
-  uuid: 46877826-71e4-34d6-810c-e0d11a38bddb
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
 proxy-groups:
 - name: Global ©️
   type: select
@@ -118,8 +119,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-223.111.202.209-266 | 1.536MB
-  - 🇨🇳CN-223.111.202.178-287 | 1.123MB
-  - 🇨🇳CN-223.111.202.178-212 | 0.408MB
+  - RELAY-172.67.128.43-225 | 7.647MB
+  - RELAY-172.67.128.43-221 | 2.185MB
 rules:
 - MATCH,Global ©️
