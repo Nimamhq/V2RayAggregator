@@ -17,7 +17,60 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇨🇳CN-223.111.202.209-000 | 0.147MB
+  server: 3.wgong1.top
+  port: 11203
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.209-001 | 0.144MB
+  server: 4.wgong1.top
+  port: 11204
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.209-002 | 0.139MB
+  server: 29.wgong1.top
+  port: 52229
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.209-003 | 0.134MB
+  server: 30.wgong1.top
+  port: 52230
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.209-004 | 0.119MB
+  server: 31.wgong1.top
+  port: 52231
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-223.111.202.178-005 | 0.088MB
+  server: 32.wgong1.top
+  port: 52232
+  type: vmess
+  uuid: cbdd6cdf-db88-37ff-a7b2-e35a0f88c6b7
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +126,30 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-223.111.202.209-000 | 0.147MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-223.111.202.209-001 | 0.144MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-223.111.202.209-002 | 0.139MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-223.111.202.209-003 | 0.134MB
+  - 🇨🇳CN-223.111.202.209-004 | 0.119MB
+  - 🇨🇳CN-223.111.202.178-005 | 0.088MB
 rules:
 - MATCH,Global ©️
