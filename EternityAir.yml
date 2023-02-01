@@ -17,12 +17,68 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.25.41.179-106 | 0.18MB
+- name: 🇨🇳CN-120.25.41.179-132 | 0.199MB
   server: sh-jp-dx-iplc.810823.xyz
   port: 13065
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 11dfabeb-1bce-4d3d-a19d-786b8615a408
+- name: 🇨🇳CN-223.244.25.161-000 | 0.19MB
+  server: dxhefei01.baipiaozf.com
+  port: 32247
+  type: vmess
+  uuid: 928f891e-9b18-48be-9290-15efa84a6ff0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxhefei01.baipiaozf.com
+- name: 🇨🇳CN-124.226.218.214-001 | 0.187MB
+  server: gxct.xn--dlq110j6ul.cc
+  port: 27520
+  type: vmess
+  uuid: 928f891e-9b18-48be-9290-15efa84a6ff0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gxct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-14.18.124.138-002 | 0.181MB
+  server: gddx.fastestcloud.xyz
+  port: 40000
+  type: vmess
+  uuid: 928f891e-9b18-48be-9290-15efa84a6ff0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gddx.fastestcloud.xyz
+- name: 🇨🇳CN-121.204.163.149-003 | 0.133MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 20598
+  type: vmess
+  uuid: 928f891e-9b18-48be-9290-15efa84a6ff0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
 proxy-groups:
 - name: Global ©️
   type: select
@@ -78,25 +134,29 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-120.25.41.179-132 | 0.199MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-223.244.25.161-000 | 0.19MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-124.226.218.214-001 | 0.187MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-106 | 0.18MB
+  - 🇨🇳CN-14.18.124.138-002 | 0.181MB
+  - 🇨🇳CN-121.204.163.149-003 | 0.133MB
 rules:
 - MATCH,Global ©️
