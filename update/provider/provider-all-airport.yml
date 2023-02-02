@@ -1,16 +1,7 @@
 proxies:
-  - {name: 🇨🇳 CN-120.25.41.179-424, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.25.41.179-219, server: sh-jp-dx-iplc.810823.xyz, port: 13082, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-216, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-218, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-220, server: sh-jp-dx-iplc.810823.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-222, server: sh-jp-dx-iplc.810823.xyz, port: 13065, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-429, server: sh-jp-dx-iplc.810823.xyz, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.25.41.179-221, server: sh-jp-dx-iplc.810823.xyz, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-120.25.41.179-426, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.25.41.179-430, server: sh-jp-dx-iplc.810823.xyz, port: 13065, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.25.41.179-428, server: sh-jp-dx-iplc.810823.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.25.41.179-427, server: sh-jp-dx-iplc.810823.xyz, port: 13082, type: ss, cipher: chacha20-ietf-poly1305, password: eda69419-36ab-4cf4-953e-f154c590a721}
-  - {name: 🇨🇳 CN-120.240.236.105-303, server: ah.yd01.ssru7.casa, port: 10014, type: vmess, uuid: e2288ecb-31b7-3892-9fa9-6097c13e0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgp01.ssru3.casa}}}
-  - {name: 🇨🇳 CN-52.80.143.102-251, server: z5.810823.xyz, port: 13049, type: ss, cipher: chacha20-ietf-poly1305, password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf}
-  - {name: 🇨🇳 CN-14.18.96.160-009, server: gzdx.jcnode.top, port: 43000, type: vmess, uuid: 0538ad96-4a76-4a27-a7c3-a1031f65ef1b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: RELAY-172.67.128.43-566, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
+  - {name: RELAY-172.67.128.43-565, server: uk01.cf.ssru7.casa, port: 443, type: vmess, uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
+  - {name: RELAY-172.67.128.43-561, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
+  - {name: RELAY-172.67.128.43-368, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
+  - {name: RELAY-172.67.128.43-370, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
+  - {name: RELAY-172.67.128.43-559, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}

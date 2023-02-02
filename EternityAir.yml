@@ -17,83 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.25.41.179-424 | 2.729MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.25.41.179-219 | 2.563MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-216 | 1.923MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-218 | 0.152MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-220 | 0.144MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-222 | 0.138MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-429 | 0.133MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.25.41.179-221 | 0.123MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-120.25.41.179-426 | 0.121MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.25.41.179-430 | 0.119MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.25.41.179-428 | 0.108MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.25.41.179-427 | 0.088MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eda69419-36ab-4cf4-953e-f154c590a721
-- name: 🇨🇳CN-120.240.236.105-303 | 0.087MB
-  server: ah.yd01.ssru7.casa
-  port: 10014
+- name: RELAY-172.67.128.43-566 | 34.581MB
+  server: us02.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: e2288ecb-31b7-3892-9fa9-6097c13e0ee9
+  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
   alterId: 0
   cipher: auto
   tls: true
@@ -102,27 +30,77 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sgp01.ssru3.casa
-- name: 🇨🇳CN-52.80.143.102-251 | 0.085MB
-  server: z5.810823.xyz
-  port: 13049
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: e9510346-bd05-48fa-b2fc-3d3ea1726ecf
-- name: 🇨🇳CN-14.18.96.160-009 | 0.068MB
-  server: gzdx.jcnode.top
-  port: 43000
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.128.43-565 | 27.047MB
+  server: uk01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 0538ad96-4a76-4a27-a7c3-a1031f65ef1b
+  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: gzdx.jcnode.top
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-561 | 23.958MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-368 | 23.449MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-370 | 1.967MB
+  server: lu01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-559 | 0.364MB
+  server: ger01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -179,38 +157,29 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-424 | 2.729MB
-  - 🇨🇳CN-120.25.41.179-219 | 2.563MB
-  - 🇨🇳CN-120.25.41.179-216 | 1.923MB
+  - RELAY-172.67.128.43-566 | 34.581MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-218 | 0.152MB
-  - 🇨🇳CN-120.25.41.179-220 | 0.144MB
-  - 🇨🇳CN-120.25.41.179-222 | 0.138MB
+  - RELAY-172.67.128.43-565 | 27.047MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-429 | 0.133MB
-  - 🇨🇳CN-120.25.41.179-221 | 0.123MB
-  - 🇨🇳CN-120.25.41.179-426 | 0.121MB
+  - RELAY-172.67.128.43-561 | 23.958MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-430 | 0.119MB
-  - 🇨🇳CN-120.25.41.179-428 | 0.108MB
-  - 🇨🇳CN-120.25.41.179-427 | 0.088MB
-  - 🇨🇳CN-120.240.236.105-303 | 0.087MB
-  - 🇨🇳CN-52.80.143.102-251 | 0.085MB
-  - 🇨🇳CN-14.18.96.160-009 | 0.068MB
+  - RELAY-172.67.128.43-368 | 23.449MB
+  - RELAY-172.67.128.43-370 | 1.967MB
+  - RELAY-172.67.128.43-559 | 0.364MB
 rules:
 - MATCH,Global ©️
