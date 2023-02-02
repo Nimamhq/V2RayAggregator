@@ -17,190 +17,90 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.25.41.179-203 | 23.198MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6ec63bd7-53e1-48ff-98e7-4f5edc612d76
-- name: 🇨🇳CN-120.25.41.179-202 | 2.344MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6ec63bd7-53e1-48ff-98e7-4f5edc612d76
-- name: 🇨🇳CN-120.25.41.179-200 | 1.456MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6ec63bd7-53e1-48ff-98e7-4f5edc612d76
-- name: 🇨🇳CN-120.25.41.179-397 | 1.352MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 67d6b7d8-f21d-43f0-a162-f3d186f89ae1
-- name: 🇨🇳CN-120.25.41.179-395 | 1.35MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 67d6b7d8-f21d-43f0-a162-f3d186f89ae1
-- name: 🇨🇳CN-120.25.41.179-399 | 0.546MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 67d6b7d8-f21d-43f0-a162-f3d186f89ae1
-- name: 🇨🇳CN-120.25.41.179-401 | 0.508MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 67d6b7d8-f21d-43f0-a162-f3d186f89ae1
-- name: 🇨🇳CN-120.25.41.179-400 | 0.448MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 67d6b7d8-f21d-43f0-a162-f3d186f89ae1
-- name: 🇨🇳CN-114.80.32.2-296 | 0.393MB
-  server: suijishanghai01.bpzhuanfa.com
-  port: 40650
+- name: RELAY-172.67.128.43-181 | 11.549MB
+  server: ger01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 6b3682b9-fa3d-49c3-b06a-2b968fd14585
+  uuid: 60677239-9914-368e-95f9-edf810547a25
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: suijishanghai01.bpzhuanfa.com
-- name: 🇨🇳CN-14.29.167.50-176 | 0.321MB
-  server: gddx.fosi.hk
-  port: 32415
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-291 | 0.051MB
+  server: lu01.cf.ssru7.casa
+  port: 443
   type: vmess
-  uuid: 43d3a993-5db3-42fe-9d23-7c7589d924c8
+  uuid: e0e52a44-9040-3000-a97a-79dd1daf2c56
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: gddx.fosi.hk
-- name: 🇯🇵JP-54.199.41.22-007 | 0.091MB
-  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-183 | 0.034MB
+  server: lu01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 60677239-9914-368e-95f9-edf810547a25
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇸🇬SG-13.229.123.254-008 | 0.076MB
-  server: 00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇸🇬SG-54.254.89.25-009 | 0.075MB
-  server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-172.67.128.43-187 | 0.034MB
+  server: uk01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: 60677239-9914-368e-95f9-edf810547a25
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇰🇷KR-3.35.206.86-010 | 0.07MB
-  server: 00000000000000000000000000000000000000000000000000000000000007a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇰🇷KR-54.180.138.217-011 | 0.069MB
-  server: 00000000000000000000000000000000000000000000000000000000000008a.node-for-bigairport.win
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-172.67.128.43-289 | 0.021MB
+  server: ger01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: e0e52a44-9040-3000-a97a-79dd1daf2c56
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇺🇸US-54.153.20.162-012 | 0.065MB
-  server: 00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win
-  port: 80
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-54.67.31.190-013 | 0.064MB
-  server: 00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: RELAY-172.67.128.43-295 | 0.015MB
+  server: uk01.cf.ssru7.casa
   port: 443
   type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  uuid: e0e52a44-9040-3000-a97a-79dd1daf2c56
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-- name: 🇩🇪DE-3.69.54.76-014 | 0.064MB
-  server: 00000000000000000000000000000000000000000000000000000000000011a.node-for-bigairport.win
-  port: 26901
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇺🇸US-35.92.135.232-015 | 0.063MB
-  server: 00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win
-  port: 10392
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇬🇧GB-3.10.22.22-016 | 0.043MB
-  server: 00000000000000000000000000000000000000000000000000000000000013a.node-for-bigairport.win
-  port: 43566
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 🇫🇷FR-13.38.78.62-017 | 0.043MB
-  server: 00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win
-  port: 12659
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: IE-3.250.122.203-018 | 0.038MB
-  server: 00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win
-  port: 15092
-  type: vmess
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -257,45 +157,29 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-203 | 23.198MB
-  - 🇨🇳CN-120.25.41.179-202 | 2.344MB
-  - 🇨🇳CN-120.25.41.179-200 | 1.456MB
-  - 🇨🇳CN-120.25.41.179-397 | 1.352MB
-  - 🇨🇳CN-120.25.41.179-395 | 1.35MB
+  - RELAY-172.67.128.43-181 | 11.549MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-399 | 0.546MB
-  - 🇨🇳CN-120.25.41.179-401 | 0.508MB
-  - 🇨🇳CN-120.25.41.179-400 | 0.448MB
-  - 🇨🇳CN-114.80.32.2-296 | 0.393MB
-  - 🇨🇳CN-14.29.167.50-176 | 0.321MB
+  - RELAY-172.67.128.43-291 | 0.051MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-54.199.41.22-007 | 0.091MB
-  - 🇸🇬SG-13.229.123.254-008 | 0.076MB
-  - 🇸🇬SG-54.254.89.25-009 | 0.075MB
-  - 🇰🇷KR-3.35.206.86-010 | 0.07MB
-  - 🇰🇷KR-54.180.138.217-011 | 0.069MB
+  - RELAY-172.67.128.43-183 | 0.034MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.153.20.162-012 | 0.065MB
-  - 🇺🇸US-54.67.31.190-013 | 0.064MB
-  - 🇩🇪DE-3.69.54.76-014 | 0.064MB
-  - 🇺🇸US-35.92.135.232-015 | 0.063MB
-  - 🇬🇧GB-3.10.22.22-016 | 0.043MB
-  - 🇫🇷FR-13.38.78.62-017 | 0.043MB
-  - IE-3.250.122.203-018 | 0.038MB
+  - RELAY-172.67.128.43-187 | 0.034MB
+  - RELAY-172.67.128.43-289 | 0.021MB
+  - RELAY-172.67.128.43-295 | 0.015MB
 rules:
 - MATCH,Global ©️
