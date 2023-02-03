@@ -1,4 +1,5 @@
 proxies:
-  - {name: 🇨🇳 CN-120.25.41.179-246, server: sh-jp-dx-iplc.810823.xyz, port: 13082, type: ss, cipher: chacha20-ietf-poly1305, password: bdf5c5d3-2c45-44ce-a213-bb3e6a7ac48c}
-  - {name: 🇨🇳 CN-120.25.41.179-248, server: sh-jp-dx-iplc.810823.xyz, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: bdf5c5d3-2c45-44ce-a213-bb3e6a7ac48c}
-  - {name: 🇨🇳 CN-120.25.41.179-249, server: sh-jp-dx-iplc.810823.xyz, port: 13065, type: ss, cipher: chacha20-ietf-poly1305, password: bdf5c5d3-2c45-44ce-a213-bb3e6a7ac48c}
+  - {name: RELAY-172.67.128.43-350, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: e44a0c6a-6bd7-3261-bb23-8718b3726f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
+  - {name: RELAY-172.67.128.43-355, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: e44a0c6a-6bd7-3261-bb23-8718b3726f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
+  - {name: RELAY-172.67.128.43-353, server: ger01.cf.ssru7.casa, port: 443, type: vmess, uuid: e44a0c6a-6bd7-3261-bb23-8718b3726f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ger01.ssru4.fun}}}
+  - {name: RELAY-172.67.128.43-358, server: tr01.cf.ssru7.casa, port: 443, type: vmess, uuid: e44a0c6a-6bd7-3261-bb23-8718b3726f8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr01.ssru4.fun}}}
