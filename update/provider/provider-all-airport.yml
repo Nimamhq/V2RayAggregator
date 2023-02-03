@@ -1,1 +1,4 @@
 proxies:
+  - {name: 🇨🇳 CN-14.18.96.160-000, server: gzdx.jcnode.top, port: 20001, type: vmess, uuid: 1974ae40-c812-4917-b0fb-a243bdc29341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-14.18.96.160-002, server: gzdx.jcnode.top, port: 20000, type: vmess, uuid: 1974ae40-c812-4917-b0fb-a243bdc29341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇨🇳 CN-106.225.205.220-004, server: xmct.xn--dlq110j6ul.cc, port: 17141, type: vmess, uuid: 1974ae40-c812-4917-b0fb-a243bdc29341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: xmct.xn--dlq110j6ul.cc}}}
