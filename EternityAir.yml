@@ -17,90 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-566 | 34.581MB
-  server: us02.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.128.43-565 | 27.047MB
-  server: uk01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: RELAY-172.67.128.43-561 | 23.958MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-368 | 23.449MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-172.67.128.43-370 | 1.967MB
-  server: lu01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 778d4df6-430d-3ece-966f-bb9c68c9044d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.128.43-559 | 0.364MB
-  server: ger01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 9ac53807-cfa0-318f-ac7a-6c56f9e18df0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -156,30 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-566 | 34.581MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-565 | 27.047MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-561 | 23.958MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.128.43-368 | 23.449MB
-  - RELAY-172.67.128.43-370 | 1.967MB
-  - RELAY-172.67.128.43-559 | 0.364MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
