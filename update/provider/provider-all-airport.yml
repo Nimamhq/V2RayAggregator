@@ -1,8 +1,14 @@
 proxies:
-  - {name: RELAY-172.67.128.43-199, server: us02.cf.ssru7.casa, port: 443, type: vmess, uuid: 3ed614eb-3910-3c72-9f64-419b5ec0bacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
-  - {name: RELAY-172.67.158.188-187, server: aus01.cf.ssru7.casa, port: 443, type: vmess, uuid: 3ed614eb-3910-3c72-9f64-419b5ec0bacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: aus01.paopaocloud.cyou}}}
-  - {name: RELAY-172.67.128.43-194, server: lu01.cf.ssru7.casa, port: 443, type: vmess, uuid: 3ed614eb-3910-3c72-9f64-419b5ec0bacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu01.ssru3.casa}}}
-  - {name: 🇨🇳 CN-223.111.202.178-393, server: 111.wgong1.top, port: 52211, type: vmess, uuid: 2225d304-e8ad-3a3c-a35b-b222922b3b31, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: RELAY-172.67.128.43-197, server: tr01.cf.ssru7.casa, port: 443, type: vmess, uuid: 3ed614eb-3910-3c72-9f64-419b5ec0bacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tr01.ssru4.fun}}}
-  - {name: 🇨🇳 CN-223.111.202.178-604, server: 112.wgong1.top, port: 52212, type: vmess, uuid: 75ed6abd-177d-34f1-b433-0395e19c22d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-223.111.202.178-043, server: 112.wgong1.top, port: 52212, type: vmess, uuid: c13b4a05-2581-3de7-a9d6-54f324b954e4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-120.25.41.179-557, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: df5e7814-504a-45e7-8f96-684d10449391}
+  - {name: 🇨🇳 CN-120.25.41.179-559, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: df5e7814-504a-45e7-8f96-684d10449391}
+  - {name: 🇨🇳 CN-120.25.41.179-562, server: sh-jp-dx-iplc.810823.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: df5e7814-504a-45e7-8f96-684d10449391}
+  - {name: 🇨🇳 CN-120.25.41.179-561, server: sh-jp-dx-iplc.810823.xyz, port: 13082, type: ss, cipher: chacha20-ietf-poly1305, password: df5e7814-504a-45e7-8f96-684d10449391}
+  - {name: 🇨🇳 CN-120.25.41.179-563, server: sh-jp-dx-iplc.810823.xyz, port: 13001, type: ss, cipher: chacha20-ietf-poly1305, password: df5e7814-504a-45e7-8f96-684d10449391}
+  - {name: 🇨🇳 CN-223.111.202.178-333, server: 32.wgong1.top, port: 52232, type: vmess, uuid: db1b13be-8852-32c8-bf00-06e6fdbfd342, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-218.201.23.199-088, server: scloud17.jafiyun.world, port: 22017, type: vmess, uuid: 41db3c8d-7df2-397c-adab-4ae99ebc5538, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-002, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 22d4bc21-2638-352b-81d7-f10ccb334db6, sni: scloud58.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-003, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 22d4bc21-2638-352b-81d7-f10ccb334db6, sni: scloud59.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-004, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: 22d4bc21-2638-352b-81d7-f10ccb334db6, sni: scloud60.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-005, server: jafi26.jafiyun.world, port: 22026, type: vmess, uuid: 22d4bc21-2638-352b-81d7-f10ccb334db6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-218.201.23.199-006, server: jafi27.jafiyun.world, port: 23027, type: vmess, uuid: 22d4bc21-2638-352b-81d7-f10ccb334db6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-218.201.23.199-007, server: scloud41.jafiyun.world, port: 22041, type: trojan, password: 22d4bc21-2638-352b-81d7-f10ccb334db6, sni: scloud41.jafiyun.world, skip-cert-verify: false}
