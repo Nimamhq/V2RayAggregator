@@ -1,5 +1,1 @@
 proxies:
-  - {name: 🇨🇳 CN-111.22.142.148-000, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 42c830f2-9580-4090-90ff-4ca201c56d48}
-  - {name: 🇨🇳 CN-111.22.142.148-002, server: tongzhi.838501.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 42c830f2-9580-4090-90ff-4ca201c56d48}
-  - {name: 🇨🇳 CN-120.25.41.179-003, server: sh-jp-dx-iplc.810823.xyz, port: 13082, type: ss, cipher: chacha20-ietf-poly1305, password: 42c830f2-9580-4090-90ff-4ca201c56d48}
-  - {name: 🇨🇳 CN-120.25.41.179-004, server: sh-jp-dx-iplc.810823.xyz, port: 13081, type: ss, cipher: chacha20-ietf-poly1305, password: 42c830f2-9580-4090-90ff-4ca201c56d48}
