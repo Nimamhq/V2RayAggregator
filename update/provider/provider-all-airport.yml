@@ -1,5 +1,1 @@
 proxies:
-  - {name: 🇨🇳 CN-218.201.23.199-000, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: 782a60cc-25f0-3a21-8c37-082b7b1d4954, sni: scloud56.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-001, server: scloud57.jafiyun.world, port: 22057, type: trojan, password: 782a60cc-25f0-3a21-8c37-082b7b1d4954, sni: scloud57.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-002, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: 782a60cc-25f0-3a21-8c37-082b7b1d4954, sni: scloud58.jafiyun.world, skip-cert-verify: false}
-  - {name: 🇨🇳 CN-118.212.143.3-003, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: 782a60cc-25f0-3a21-8c37-082b7b1d4954, sni: scloud59.jafiyun.world, skip-cert-verify: false}
