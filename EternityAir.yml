@@ -17,31 +17,62 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.25.41.179-282 | 1.033MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
-- name: 🇨🇳CN-120.25.41.179-281 | 0.956MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
-- name: 🇨🇳CN-120.25.41.179-283 | 0.877MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
-- name: 🇨🇳CN-14.18.96.160-000 | 0.529MB
-  server: gzdx0.170203.xyz
-  port: 53523
-  type: trojan
-  password: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
-  sni: ru03.170203.xyz
+- name: RELAY-172.67.128.43-124 | 2.154MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 84c74686-8ea7-384e-a7c9-936ae000c397
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: 🇺🇸US-54.191.233.1-037 | 1.382MB
+  server: us01.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 6849bff8-71cd-4787-af8b-08757b39b8e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us01.170203.xyz
+- name: RELAY-104.21.84.140-134 | 1.269MB
+  server: us02.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: 84c74686-8ea7-384e-a7c9-936ae000c397
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-104.21.84.140-133 | 1.034MB
+  server: uk01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: 84c74686-8ea7-384e-a7c9-936ae000c397
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -98,27 +129,27 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-282 | 1.033MB
+  - RELAY-172.67.128.43-124 | 2.154MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-281 | 0.956MB
+  - 🇺🇸US-54.191.233.1-037 | 1.382MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-283 | 0.877MB
+  - RELAY-104.21.84.140-134 | 1.269MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.18.96.160-000 | 0.529MB
+  - RELAY-104.21.84.140-133 | 1.034MB
 rules:
 - MATCH,Global ©️
