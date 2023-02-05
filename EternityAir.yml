@@ -17,48 +17,31 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.191.233.1-037 | 1.417MB
-  server: us01.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-120.25.41.179-282 | 1.033MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
+- name: 🇨🇳CN-120.25.41.179-281 | 0.956MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
+- name: 🇨🇳CN-120.25.41.179-283 | 0.877MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 62ca5d2c-141b-4586-8dc1-82f563ce5a1b
+- name: 🇨🇳CN-14.18.96.160-000 | 0.529MB
+  server: gzdx0.170203.xyz
+  port: 53523
+  type: trojan
+  password: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
+  sni: ru03.170203.xyz
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us01.170203.xyz
-- name: RELAY-104.21.84.140-561 | 0.657MB
-  server: us02.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: 9e581f3c-d436-32a0-a3ce-f04ffacc31e0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: 🇯🇵JP-54.249.165.202-025 | 0.549MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -114,27 +97,28 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-120.25.41.179-282 | 1.033MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-120.25.41.179-281 | 0.956MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-120.25.41.179-283 | 0.877MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.191.233.1-037 | 1.417MB
-  - RELAY-104.21.84.140-561 | 0.657MB
-  - 🇯🇵JP-54.249.165.202-025 | 0.549MB
+  - 🇨🇳CN-14.18.96.160-000 | 0.529MB
 rules:
 - MATCH,Global ©️
