@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.191.233.1-075 | 0.154MB
+- name: 🇺🇸US-54.191.233.1-037 | 1.417MB
   server: us01.170203.xyz
   port: 43543
   type: vmess
-  uuid: 78fed25e-2289-4167-8139-23c2612fcf8d
+  uuid: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
   alterId: 0
   cipher: auto
   tls: false
@@ -31,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: us01.170203.xyz
-- name: RELAY-172.67.128.43-386 | 0.131MB
-  server: can01.cf.ssru7.casa
+- name: RELAY-104.21.84.140-561 | 0.657MB
+  server: us02.cf.ssssr.icu
   port: 443
   type: vmess
-  uuid: 789f47d1-bb01-3902-9cad-9d43f05863d1
+  uuid: 9e581f3c-d436-32a0-a3ce-f04ffacc31e0
   alterId: 0
   cipher: auto
   tls: true
@@ -44,12 +44,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: can01.paopaocloud.cyou
-- name: 🇯🇵JP-18.182.55.25-064 | 0.093MB
-  server: jp001.170203.xyz
+      Host: us02.ssru4.fun
+- name: 🇯🇵JP-54.249.165.202-025 | 0.549MB
+  server: jp02.170203.xyz
   port: 23245
   type: vmess
-  uuid: 78fed25e-2289-4167-8139-23c2612fcf8d
+  uuid: 2dca5ee2-bf08-4d89-99f9-9effad19eaee
   alterId: 0
   cipher: auto
   tls: false
@@ -58,21 +58,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: jp001.170203.xyz
-- name: 🇯🇵JP-18.183.188.173-066 | 0.072MB
-  server: jp04.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 78fed25e-2289-4167-8139-23c2612fcf8d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp04.170203.xyz
+      Host: jp02.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -128,28 +114,27 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-54.191.233.1-075 | 0.154MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-386 | 0.131MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-18.182.55.25-064 | 0.093MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-18.183.188.173-066 | 0.072MB
+  - 🇺🇸US-54.191.233.1-037 | 1.417MB
+  - RELAY-104.21.84.140-561 | 0.657MB
+  - 🇯🇵JP-54.249.165.202-025 | 0.549MB
 rules:
 - MATCH,Global ©️
