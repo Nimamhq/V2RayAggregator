@@ -17,11 +17,67 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.191.233.1-256 | 44.829MB
+- name: RELAY-172.67.128.43-087 | 36.16MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.193.205-092 | 18.732MB
+  server: lu01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-104.21.84.140-096 | 18.159MB
+  server: uk01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk01.ssru4.fun
+- name: RELAY-104.21.84.140-090 | 17.608MB
+  server: ger01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ger01.ssru4.fun
+- name: 🇺🇸US-54.191.233.1-331 | 16.833MB
   server: us01.170203.xyz
   port: 43543
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -31,32 +87,46 @@ proxies:
     path: /
     headers:
       Host: us01.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-252 | 18.724MB
-  server: gzdx1.170203.xyz
-  port: 62680
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: jpmax03.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-13.115.185.119-244 | 18.357MB
-  server: jp02.170203.xyz
-  port: 23245
+- name: RELAY-172.67.193.205-097 | 15.854MB
+  server: us02.cf.ssssr.icu
+  port: 443
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: a7e13395-726b-385c-837d-14be99716838
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: jp02.170203.xyz
-- name: 🇯🇵JP-43.206.212.109-245 | 17.077MB
+      Host: us02.ssru4.fun
+- name: RELAY-172.67.193.205-095 | 15.808MB
+  server: tr01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
+- name: 🇯🇵JP-18.183.250.171-327 | 15.734MB
+  server: gzdx1.170203.xyz
+  port: 62680
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: jpmax03.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-43.206.212.109-320 | 15.513MB
   server: jp001.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -66,25 +136,11 @@ proxies:
     path: /
     headers:
       Host: jp001.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-262 | 16.732MB
-  server: gzdx1.170203.xyz
-  port: 30306
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax08.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-278 | 16.669MB
-  server: gzdx1.170203.xyz
-  port: 15040
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax10.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.176.60.120-246 | 16.609MB
-  server: jp03.170203.xyz
+- name: 🇯🇵JP-54.249.165.202-319 | 15.474MB
+  server: jp02.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -93,33 +149,61 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: jp03.170203.xyz
-- name: 🇰🇷KR-43.201.33.215-242 | 15.955MB
-  server: kr02.170203.xyz
-  port: 443
+      Host: jp02.170203.xyz
+- name: 🇯🇵JP-18.183.250.171-337 | 15.388MB
+  server: gzdx1.170203.xyz
+  port: 30306
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: kr02.170203.xyz
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: hkmax08.170203.xyz
   skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-268 | 15.726MB
+- name: 🇯🇵JP-18.183.250.171-353 | 15.364MB
+  server: gzdx1.170203.xyz
+  port: 15040
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: hkmax10.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.183.250.171-307 | 15.058MB
+  server: gzdx1.170203.xyz
+  port: 24798
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: sgmax03.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.183.250.171-343 | 13.623MB
   server: gzdx1.170203.xyz
   port: 56259
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   sni: hkmax02.170203.xyz
   skip-cert-verify: false
-- name: 🇰🇷KR-3.36.125.218-243 | 15.629MB
-  server: kr01.170203.xyz
+- name: 🇯🇵JP-18.183.250.171-304 | 13.424MB
+  server: gzdx1.170203.xyz
+  port: 33808
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: 0a01f3ad01.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-18.183.250.171-347 | 13.037MB
+  server: gzdx1.170203.xyz
+  port: 62594
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: hkmax06.170203.xyz
+  skip-cert-verify: false
+- name: 🇰🇷KR-43.201.33.215-317 | 11.81MB
+  server: kr02.170203.xyz
   port: 443
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: kr01.170203.xyz
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: kr02.170203.xyz
   skip-cert-verify: false
-- name: 🇰🇷KR-3.34.42.10-239 | 15.471MB
+- name: 🇰🇷KR-3.34.42.10-314 | 11.442MB
   server: kr002.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -129,32 +213,32 @@ proxies:
     path: /
     headers:
       Host: kr002.170203.xyz
-- name: 🇭🇰HK-20.189.114.74-276 | 15.468MB
-  server: hkmax10.170203.xyz
+- name: 🇰🇷KR-3.38.244.180-318 | 11.392MB
+  server: kr01.170203.xyz
   port: 443
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax10.170203.xyz
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: kr01.170203.xyz
   skip-cert-verify: false
-- name: 🇭🇰HK-52.139.171.158-274 | 15.285MB
+- name: 🇭🇰HK-52.139.171.158-349 | 11.297MB
   server: hkmax01.170203.xyz
   port: 443
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   sni: hkmax01.170203.xyz
   skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-229 | 14.891MB
-  server: gzdx1.170203.xyz
-  port: 33808
+- name: 🇭🇰HK-20.189.114.74-351 | 11.284MB
+  server: hkmax10.170203.xyz
+  port: 443
   type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: 0a01f3ad01.170203.xyz
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: hkmax10.170203.xyz
   skip-cert-verify: false
-- name: 🇦🇺AU-3.104.53.141-241 | 14.837MB
+- name: 🇦🇺AU-3.104.53.141-316 | 10.347MB
   server: au01.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -164,25 +248,11 @@ proxies:
     path: /
     headers:
       Host: au01.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-261 | 14.744MB
-  server: gzdx1.170203.xyz
-  port: 11376
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: us03.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.229.122.56-225 | 13.579MB
-  server: sg03.170203.xyz
-  port: 443
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: sg03.170203.xyz
-  skip-cert-verify: false
-- name: 🇮🇳IN-65.0.4.214-240 | 13.5MB
+- name: 🇮🇳IN-65.0.4.214-315 | 9.055MB
   server: in01.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -192,11 +262,32 @@ proxies:
     path: /
     headers:
       Host: in01.170203.xyz
-- name: 🇸🇬SG-13.212.117.19-227 | 13.129MB
+- name: RELAY-172.67.158.188-085 | 8.443MB
+  server: aus01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aus01.paopaocloud.cyou
+- name: 🇸🇬SG-13.229.122.56-300 | 8.172MB
+  server: sg03.170203.xyz
+  port: 443
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: sg03.170203.xyz
+  skip-cert-verify: false
+- name: 🇸🇬SG-13.212.117.19-302 | 6.338MB
   server: sg05.170203.xyz
   port: 43543
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -206,11 +297,11 @@ proxies:
     path: /
     headers:
       Host: sg05.170203.xyz
-- name: 🇸🇬SG-18.143.78.223-223 | 12.322MB
+- name: 🇸🇬SG-18.143.78.223-298 | 4.684MB
   server: sg002.170203.xyz
   port: 43543
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -220,11 +311,11 @@ proxies:
     path: /
     headers:
       Host: sg002.170203.xyz
-- name: 🇸🇬SG-54.179.127.174-224 | 11.689MB
+- name: 🇸🇬SG-54.179.127.174-299 | 4.614MB
   server: sg003.170203.xyz
   port: 34333
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -234,39 +325,11 @@ proxies:
     path: /
     headers:
       Host: sg003.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-218 | 11.396MB
-  server: gzdx1.170203.xyz
-  port: 54982
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: ru02.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.213.9.160-226 | 9.783MB
-  server: sg04.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg04.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-272 | 9.728MB
-  server: gzdx1.170203.xyz
-  port: 62594
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax06.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-54.169.112.41-222 | 9.487MB
+- name: 🇸🇬SG-54.169.112.41-297 | 0.143MB
   server: sg02.170203.xyz
   port: 43543
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -276,11 +339,46 @@ proxies:
     path: /
     headers:
       Host: sg02.170203.xyz
-- name: 🇯🇵JP-52.199.10.142-248 | 8.812MB
+- name: 🇸🇬SG-13.213.9.160-301 | 0.137MB
+  server: sg04.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg04.170203.xyz
+- name: 🇯🇵JP-18.183.250.171-306 | 0.107MB
+  server: gzdx1.170203.xyz
+  port: 58630
+  type: trojan
+  password: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
+  sni: 0a01f3ad01.170203.xyz
+  skip-cert-verify: false
+- name: RELAY-172.67.193.205-093 | 0.103MB
+  server: my01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: a7e13395-726b-385c-837d-14be99716838
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: my01.ssru3.casa
+- name: 🇯🇵JP-3.112.189.224-323 | 0.075MB
   server: jp05.170203.xyz
   port: 23245
   type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
+  uuid: 49ef18f2-2340-4e98-a5e1-9bd21303aa54
   alterId: 0
   cipher: auto
   tls: false
@@ -290,86 +388,6 @@ proxies:
     path: /
     headers:
       Host: jp05.170203.xyz
-- name: 🇸🇬SG-13.212.11.48-221 | 8.281MB
-  server: sg001.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg001.170203.xyz
-- name: 🇯🇵JP-18.183.250.171-273 | 8.105MB
-  server: gzdx1.170203.xyz
-  port: 31652
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax12.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-267 | 7.958MB
-  server: gzdx1.170203.xyz
-  port: 29003
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: hkmax05.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-232 | 4.99MB
-  server: gzdx1.170203.xyz
-  port: 24798
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: sgmax03.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.183.250.171-231 | 4.782MB
-  server: gzdx1.170203.xyz
-  port: 58630
-  type: trojan
-  password: 3ef622b4-6fc6-4e1d-b89e-673f024d1459
-  sni: 0a01f3ad01.170203.xyz
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.25.41.179-083 | 4.313MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13065
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 68d940c8-b0eb-4131-b905-8b9ca7d3c4db
-- name: 🇨🇳CN-120.25.41.179-080 | 0.615MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 68d940c8-b0eb-4131-b905-8b9ca7d3c4db
-- name: 🇨🇳CN-120.25.41.179-081 | 0.492MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 68d940c8-b0eb-4131-b905-8b9ca7d3c4db
-- name: 🇨🇳CN-120.25.41.179-082 | 0.391MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 68d940c8-b0eb-4131-b905-8b9ca7d3c4db
-- name: 🇨🇳CN-183.222.27.52-125 | 0.344MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 56860
-  type: vmess
-  uuid: a8a0ee63-9dee-40c0-a408-fc078296120d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -426,59 +444,56 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.191.233.1-256 | 44.829MB
-  - 🇯🇵JP-18.183.250.171-252 | 18.724MB
-  - 🇯🇵JP-13.115.185.119-244 | 18.357MB
-  - 🇯🇵JP-43.206.212.109-245 | 17.077MB
-  - 🇯🇵JP-18.183.250.171-262 | 16.732MB
-  - 🇯🇵JP-18.183.250.171-278 | 16.669MB
-  - 🇯🇵JP-18.176.60.120-246 | 16.609MB
-  - 🇰🇷KR-43.201.33.215-242 | 15.955MB
-  - 🇯🇵JP-18.183.250.171-268 | 15.726MB
+  - RELAY-172.67.128.43-087 | 36.16MB
+  - RELAY-172.67.193.205-092 | 18.732MB
+  - RELAY-104.21.84.140-096 | 18.159MB
+  - RELAY-104.21.84.140-090 | 17.608MB
+  - 🇺🇸US-54.191.233.1-331 | 16.833MB
+  - RELAY-172.67.193.205-097 | 15.854MB
+  - RELAY-172.67.193.205-095 | 15.808MB
+  - 🇯🇵JP-18.183.250.171-327 | 15.734MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-3.36.125.218-243 | 15.629MB
-  - 🇰🇷KR-3.34.42.10-239 | 15.471MB
-  - 🇭🇰HK-20.189.114.74-276 | 15.468MB
-  - 🇭🇰HK-52.139.171.158-274 | 15.285MB
-  - 🇯🇵JP-18.183.250.171-229 | 14.891MB
-  - 🇦🇺AU-3.104.53.141-241 | 14.837MB
-  - 🇯🇵JP-18.183.250.171-261 | 14.744MB
-  - 🇸🇬SG-13.229.122.56-225 | 13.579MB
-  - 🇮🇳IN-65.0.4.214-240 | 13.5MB
+  - 🇯🇵JP-43.206.212.109-320 | 15.513MB
+  - 🇯🇵JP-54.249.165.202-319 | 15.474MB
+  - 🇯🇵JP-18.183.250.171-337 | 15.388MB
+  - 🇯🇵JP-18.183.250.171-353 | 15.364MB
+  - 🇯🇵JP-18.183.250.171-307 | 15.058MB
+  - 🇯🇵JP-18.183.250.171-343 | 13.623MB
+  - 🇯🇵JP-18.183.250.171-304 | 13.424MB
+  - 🇯🇵JP-18.183.250.171-347 | 13.037MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-13.212.117.19-227 | 13.129MB
-  - 🇸🇬SG-18.143.78.223-223 | 12.322MB
-  - 🇸🇬SG-54.179.127.174-224 | 11.689MB
-  - 🇯🇵JP-18.183.250.171-218 | 11.396MB
-  - 🇸🇬SG-13.213.9.160-226 | 9.783MB
-  - 🇯🇵JP-18.183.250.171-272 | 9.728MB
-  - 🇸🇬SG-54.169.112.41-222 | 9.487MB
-  - 🇯🇵JP-52.199.10.142-248 | 8.812MB
-  - 🇸🇬SG-13.212.11.48-221 | 8.281MB
+  - 🇰🇷KR-43.201.33.215-317 | 11.81MB
+  - 🇰🇷KR-3.34.42.10-314 | 11.442MB
+  - 🇰🇷KR-3.38.244.180-318 | 11.392MB
+  - 🇭🇰HK-52.139.171.158-349 | 11.297MB
+  - 🇭🇰HK-20.189.114.74-351 | 11.284MB
+  - 🇦🇺AU-3.104.53.141-316 | 10.347MB
+  - 🇮🇳IN-65.0.4.214-315 | 9.055MB
+  - RELAY-172.67.158.188-085 | 8.443MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-18.183.250.171-273 | 8.105MB
-  - 🇯🇵JP-18.183.250.171-267 | 7.958MB
-  - 🇯🇵JP-18.183.250.171-232 | 4.99MB
-  - 🇯🇵JP-18.183.250.171-231 | 4.782MB
-  - 🇨🇳CN-120.25.41.179-083 | 4.313MB
-  - 🇨🇳CN-120.25.41.179-080 | 0.615MB
-  - 🇨🇳CN-120.25.41.179-081 | 0.492MB
-  - 🇨🇳CN-120.25.41.179-082 | 0.391MB
-  - 🇨🇳CN-183.222.27.52-125 | 0.344MB
+  - 🇸🇬SG-13.229.122.56-300 | 8.172MB
+  - 🇸🇬SG-13.212.117.19-302 | 6.338MB
+  - 🇸🇬SG-18.143.78.223-298 | 4.684MB
+  - 🇸🇬SG-54.179.127.174-299 | 4.614MB
+  - 🇸🇬SG-54.169.112.41-297 | 0.143MB
+  - 🇸🇬SG-13.213.9.160-301 | 0.137MB
+  - 🇯🇵JP-18.183.250.171-306 | 0.107MB
+  - RELAY-172.67.193.205-093 | 0.103MB
+  - 🇯🇵JP-3.112.189.224-323 | 0.075MB
 rules:
 - MATCH,Global ©️
