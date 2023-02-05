@@ -17,7 +17,62 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: RELAY-172.67.128.43-114 | 0.25MB
+  server: can01.cf.ssru7.casa
+  port: 443
+  type: vmess
+  uuid: 6251f958-840e-3f00-91d3-9ee63b82d580
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: can01.paopaocloud.cyou
+- name: RELAY-172.67.193.205-119 | 0.23MB
+  server: lu01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: 6251f958-840e-3f00-91d3-9ee63b82d580
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lu01.ssru3.casa
+- name: RELAY-104.21.84.140-124 | 0.222MB
+  server: us02.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: 6251f958-840e-3f00-91d3-9ee63b82d580
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.ssru4.fun
+- name: RELAY-104.21.84.140-122 | 0.189MB
+  server: tr01.cf.ssssr.icu
+  port: 443
+  type: vmess
+  uuid: 6251f958-840e-3f00-91d3-9ee63b82d580
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr01.ssru4.fun
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +128,28 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.128.43-114 | 0.25MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-172.67.193.205-119 | 0.23MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-104.21.84.140-124 | 0.222MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - RELAY-104.21.84.140-122 | 0.189MB
 rules:
 - MATCH,Global ©️
