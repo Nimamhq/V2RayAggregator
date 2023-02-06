@@ -1,5 +1,1 @@
 proxies:
-  - {name: RELAY-172.67.128.43-124, server: can01.cf.ssru7.casa, port: 443, type: vmess, uuid: 84c74686-8ea7-384e-a7c9-936ae000c397, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: can01.paopaocloud.cyou}}}
-  - {name: 🇺🇸 US-54.191.233.1-037, server: us01.170203.xyz, port: 43543, type: vmess, uuid: 6849bff8-71cd-4787-af8b-08757b39b8e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us01.170203.xyz}}}
-  - {name: RELAY-104.21.84.140-134, server: us02.cf.ssssr.icu, port: 443, type: vmess, uuid: 84c74686-8ea7-384e-a7c9-936ae000c397, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.ssru4.fun}}}
-  - {name: RELAY-104.21.84.140-133, server: uk01.cf.ssssr.icu, port: 443, type: vmess, uuid: 84c74686-8ea7-384e-a7c9-936ae000c397, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: uk01.ssru4.fun}}}
