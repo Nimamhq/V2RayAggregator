@@ -17,62 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.128.43-213 | 0.212MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: 8ebc3bcd-9426-325f-863e-6166a6359b27
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: RELAY-172.67.193.205-218 | 0.142MB
-  server: lu01.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: 8ebc3bcd-9426-325f-863e-6166a6359b27
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lu01.ssru3.casa
-- name: RELAY-172.67.193.205-216 | 0.13MB
-  server: ger01.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: 8ebc3bcd-9426-325f-863e-6166a6359b27
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
-- name: RELAY-104.21.84.140-221 | 0.111MB
-  server: tr01.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: 8ebc3bcd-9426-325f-863e-6166a6359b27
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tr01.ssru4.fun
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -128,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-213 | 0.212MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.193.205-218 | 0.142MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.193.205-216 | 0.13MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.21.84.140-221 | 0.111MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
