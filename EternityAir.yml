@@ -17,30 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-111.22.142.148-000 | 0.369MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: dfb64347-7d8c-4a15-a575-2485424293b7
-- name: 🇨🇳CN-111.22.142.148-002 | 0.302MB
-  server: tongzhi.838501.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: dfb64347-7d8c-4a15-a575-2485424293b7
-- name: 🇨🇳CN-120.25.41.179-003 | 0.291MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13082
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: dfb64347-7d8c-4a15-a575-2485424293b7
-- name: 🇨🇳CN-120.25.41.179-004 | 0.266MB
-  server: sh-jp-dx-iplc.810823.xyz
-  port: 13081
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: dfb64347-7d8c-4a15-a575-2485424293b7
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -96,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-111.22.142.148-000 | 0.369MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-111.22.142.148-002 | 0.302MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.25.41.179-003 | 0.291MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.25.41.179-004 | 0.266MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
