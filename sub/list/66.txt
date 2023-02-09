@@ -108,12 +108,12 @@
   - {name: SSR 4, server: z00031.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
   - {name: "", server: sgp.wyatt.cf, port: 443, type: vmess, uuid: 9359a511-d5fb-4556-d4e0-9fbefc921102, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg, headers: {Host: sgp.wyatt.cf}}}
   - {name: " 2", server: h2.arsalanv3.sbs, port: 80, type: vmess, uuid: 54e39d65-1430-465e-cfb1-77ca3a5cd534, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: h2.arsalanv3.sbs}}}
-  - {name: " 3", server: 103.45.78.241, port: 10004, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: " 4", server: 152.70.109.16, port: 443, type: vmess, uuid: b5a503a9-a3ad-42d9-af00-86f959d3454b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: " 3", server: 152.70.109.16, port: 443, type: vmess, uuid: b5a503a9-a3ad-42d9-af00-86f959d3454b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: " 4", server: bjcua.r1u.cn, port: 39287, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "", server: sgp.wyatt.cf, port: 443, type: vmess, uuid: 9359a511-d5fb-4556-d4e0-9fbefc921102, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg, headers: {Host: sgp.wyatt.cf}}}
   - {name: " 2", server: h2.arsalanv3.sbs, port: 80, type: vmess, uuid: 54e39d65-1430-465e-cfb1-77ca3a5cd534, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: h2.arsalanv3.sbs}}}
-  - {name: " 3", server: 103.45.78.241, port: 10004, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: " 4", server: 152.70.109.16, port: 443, type: vmess, uuid: b5a503a9-a3ad-42d9-af00-86f959d3454b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: " 3", server: 152.70.109.16, port: 443, type: vmess, uuid: b5a503a9-a3ad-42d9-af00-86f959d3454b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: " 4", server: bjcua.r1u.cn, port: 39287, type: vmess, uuid: f02afd21-9a72-34f3-b228-1d38207a9740, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: SSR, server: z0005.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
   - {name: SSR 2, server: z80001.security-cloudfront-cdn.com, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
   - {name: SSR 3, server: 117.28.245.196, port: 42833, type: ssr, cipher: aes-256-cfb, password: YpX2opBbrfqJzzMs, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: ""}
