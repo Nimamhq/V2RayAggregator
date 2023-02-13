@@ -17,195 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.191.235.212-139 | 12.546MB
-  server: us01.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us01.170203.xyz
-- name: 🇺🇸US-3.90.47.91-140 | 12.409MB
-  server: us02.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.170203.xyz
-- name: 🇺🇸US-3.128.170.156-142 | 12.306MB
-  server: usmax01.170203.xyz
-  port: 34355
-  type: trojan
-  password: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  sni: usmax01.170203.xyz
-  skip-cert-verify: false
-- name: RELAY-172.67.128.43-090 | 10.548MB
-  server: can01.cf.ssru7.casa
-  port: 443
-  type: vmess
-  uuid: f60a1378-90d1-3bec-814c-bfe737b00f92
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: can01.paopaocloud.cyou
-- name: 🇯🇵JP-46.51.224.90-127 | 8.113MB
-  server: jp001.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp001.170203.xyz
-- name: 🇯🇵JP-54.248.163.150-129 | 7.743MB
-  server: jp04.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp04.170203.xyz
-- name: 🇯🇵JP-18.183.140.195-128 | 7.566MB
-  server: jp03.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp03.170203.xyz
-- name: 🇯🇵JP-52.194.221.74-131 | 7.483MB
-  server: jp06.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp06.170203.xyz
-- name: 🇯🇵JP-18.176.59.158-126 | 6.507MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: RELAY-104.21.84.140-100 | 6.336MB
-  server: us02.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: f60a1378-90d1-3bec-814c-bfe737b00f92
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.ssru4.fun
-- name: RELAY-172.67.193.205-099 | 3.712MB
-  server: uk01.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: f60a1378-90d1-3bec-814c-bfe737b00f92
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk01.ssru4.fun
-- name: 🇰🇷KR-43.200.253.114-124 | 3.348MB
-  server: kr02.170203.xyz
-  port: 443
-  type: trojan
-  password: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  sni: kr02.170203.xyz
-  skip-cert-verify: false
-- name: 🇰🇷KR-43.200.6.99-125 | 3.27MB
-  server: kr01.170203.xyz
-  port: 443
-  type: trojan
-  password: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  sni: kr01.170203.xyz
-  skip-cert-verify: false
-- name: 🇰🇷KR-52.78.193.112-122 | 0.532MB
-  server: kr002.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 2b68a5d8-2d54-4c8e-9939-41993920d7d4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kr002.170203.xyz
-- name: RELAY-104.21.84.140-093 | 0.276MB
-  server: ger01.cf.ssssr.icu
-  port: 443
-  type: vmess
-  uuid: f60a1378-90d1-3bec-814c-bfe737b00f92
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ger01.ssru4.fun
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -261,39 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-54.191.235.212-139 | 12.546MB
-  - 🇺🇸US-3.90.47.91-140 | 12.409MB
-  - 🇺🇸US-3.128.170.156-142 | 12.306MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-172.67.128.43-090 | 10.548MB
-  - 🇯🇵JP-46.51.224.90-127 | 8.113MB
-  - 🇯🇵JP-54.248.163.150-129 | 7.743MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-18.183.140.195-128 | 7.566MB
-  - 🇯🇵JP-52.194.221.74-131 | 7.483MB
-  - 🇯🇵JP-18.176.59.158-126 | 6.507MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.21.84.140-100 | 6.336MB
-  - RELAY-172.67.193.205-099 | 3.712MB
-  - 🇰🇷KR-43.200.253.114-124 | 3.348MB
-  - 🇰🇷KR-43.200.6.99-125 | 3.27MB
-  - 🇰🇷KR-52.78.193.112-122 | 0.532MB
-  - RELAY-104.21.84.140-093 | 0.276MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
