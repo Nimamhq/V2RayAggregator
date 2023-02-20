@@ -17,272 +17,97 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-14.18.81.201-000 | 11.25MB
-  server: gzdx.jcnode.top
-  port: 20001
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-217 | 8.814MB
+  server: scloud16.jafiyun.world
+  port: 22016
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud16.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-002 | 10.71MB
-  server: gzdx.jcnode.top
-  port: 20000
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-215 | 8.785MB
+  server: scloud12.jafiyun.world
+  port: 22012
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud12.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-106.225.205.220-004 | 9.868MB
-  server: xmct.xn--dlq110j6ul.cc
-  port: 17141
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-216 | 8.714MB
+  server: scloud15.jafiyun.world
+  port: 22015
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud15.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xmct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-183.222.27.52-005 | 9.634MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 12716
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-203 | 8.507MB
+  server: scloud56.jafiyun.world
+  port: 22056
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud56.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-183.222.27.52-006 | 9.1MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 20059
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-205 | 8.415MB
+  server: scloud58.jafiyun.world
+  port: 22058
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud58.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-14.18.81.201-007 | 8.715MB
-  server: gzdx.jcnode.top
-  port: 21001
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-204 | 8.252MB
+  server: scloud57.jafiyun.world
+  port: 22057
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud57.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-183.222.27.52-008 | 8.603MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 39704
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-212 | 8.243MB
+  server: scloud53.jafiyun.world
+  port: 22053
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud53.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-183.222.27.52-009 | 7.679MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 39414
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-214 | 4.621MB
+  server: scloud29.jafiyun.world
+  port: 22029
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud29.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-111.22.142.146-010 | 4.838MB
-  server: hncu.donghui.tech
-  port: 33956
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-207 | 4.22MB
+  server: scloud60.jafiyun.world
+  port: 22060
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud60.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hncu.donghui.tech
-- name: 🇨🇳CN-125.88.210.172-011 | 4.238MB
-  server: gddxd.fosi.hk
-  port: 63389
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-211 | 3.989MB
+  server: scloud52.jafiyun.world
+  port: 22052
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud52.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddxd.fosi.hk
-- name: 🇨🇳CN-14.29.242.116-012 | 3.975MB
-  server: gddx.fosi.hk
-  port: 55538
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-213 | 3.796MB
+  server: scloud54.jafiyun.world
+  port: 22054
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud54.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-125.88.210.172-013 | 3.678MB
-  server: gddxd.fosi.hk
-  port: 44120
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-118.212.143.3-206 | 3.642MB
+  server: scloud59.jafiyun.world
+  port: 22059
+  type: trojan
+  password: 73279b76-e69b-364d-b544-85997d06f5bd
+  sni: scloud59.jafiyun.world
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddxd.fosi.hk
-- name: 🇨🇳CN-125.88.210.172-014 | 3.472MB
-  server: gddxd.fosi.hk
-  port: 63211
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-14.18.81.201-080 | 3.629MB
+  server: gzdx0.170203.xyz
+  port: 53523
+  type: trojan
+  password: 1cf731d0-cfd9-4569-a1d8-6f74af3ea327
+  sni: ru03.170203.xyz
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddxd.fosi.hk
-- name: 🇨🇳CN-121.204.163.149-015 | 3.057MB
-  server: shct.xn--dlq110j6ul.cc
-  port: 33726
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-14.29.242.116-016 | 1.987MB
-  server: gddx.fosi.hk
-  port: 35024
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
-- name: 🇨🇳CN-14.18.81.201-017 | 1.084MB
-  server: gzdx.jcnode.top
-  port: 23000
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-018 | 0.984MB
-  server: gzdx.jcnode.top
-  port: 23001
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-019 | 0.422MB
-  server: gzdx.jcnode.top
-  port: 23002
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-020 | 0.35MB
-  server: gzdx.jcnode.top
-  port: 28002
-  type: vmess
-  uuid: c71eae33-b00c-43a1-a730-051470fbf875
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
 proxy-groups:
 - name: Global ©️
   type: select
@@ -339,42 +164,36 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.18.81.201-000 | 11.25MB
-  - 🇨🇳CN-14.18.81.201-002 | 10.71MB
-  - 🇨🇳CN-106.225.205.220-004 | 9.868MB
-  - 🇨🇳CN-183.222.27.52-005 | 9.634MB
+  - 🇨🇳CN-118.212.143.3-217 | 8.814MB
+  - 🇨🇳CN-118.212.143.3-215 | 8.785MB
+  - 🇨🇳CN-118.212.143.3-216 | 8.714MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-183.222.27.52-006 | 9.1MB
-  - 🇨🇳CN-14.18.81.201-007 | 8.715MB
-  - 🇨🇳CN-183.222.27.52-008 | 8.603MB
-  - 🇨🇳CN-183.222.27.52-009 | 7.679MB
+  - 🇨🇳CN-118.212.143.3-203 | 8.507MB
+  - 🇨🇳CN-118.212.143.3-205 | 8.415MB
+  - 🇨🇳CN-118.212.143.3-204 | 8.252MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-111.22.142.146-010 | 4.838MB
-  - 🇨🇳CN-125.88.210.172-011 | 4.238MB
-  - 🇨🇳CN-14.29.242.116-012 | 3.975MB
-  - 🇨🇳CN-125.88.210.172-013 | 3.678MB
+  - 🇨🇳CN-118.212.143.3-212 | 8.243MB
+  - 🇨🇳CN-118.212.143.3-214 | 4.621MB
+  - 🇨🇳CN-118.212.143.3-207 | 4.22MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-125.88.210.172-014 | 3.472MB
-  - 🇨🇳CN-121.204.163.149-015 | 3.057MB
-  - 🇨🇳CN-14.29.242.116-016 | 1.987MB
-  - 🇨🇳CN-14.18.81.201-017 | 1.084MB
-  - 🇨🇳CN-14.18.81.201-018 | 0.984MB
-  - 🇨🇳CN-14.18.81.201-019 | 0.422MB
-  - 🇨🇳CN-14.18.81.201-020 | 0.35MB
+  - 🇨🇳CN-118.212.143.3-211 | 3.989MB
+  - 🇨🇳CN-118.212.143.3-213 | 3.796MB
+  - 🇨🇳CN-118.212.143.3-206 | 3.642MB
+  - 🇨🇳CN-14.18.81.201-080 | 3.629MB
 rules:
 - MATCH,Global ©️
