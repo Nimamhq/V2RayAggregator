@@ -17,7 +17,97 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇨🇳CN-118.212.143.3-130 | 17.217MB
+  server: scloud16.jafiyun.world
+  port: 22016
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud16.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-128 | 16.234MB
+  server: scloud12.jafiyun.world
+  port: 22012
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud12.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-129 | 15.531MB
+  server: scloud15.jafiyun.world
+  port: 22015
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud15.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-117 | 14.474MB
+  server: scloud57.jafiyun.world
+  port: 22057
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud57.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-118 | 13.85MB
+  server: scloud58.jafiyun.world
+  port: 22058
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud58.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-116 | 9.827MB
+  server: scloud56.jafiyun.world
+  port: 22056
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud56.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-125 | 8.87MB
+  server: scloud53.jafiyun.world
+  port: 22053
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud53.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-127 | 4.538MB
+  server: scloud29.jafiyun.world
+  port: 22029
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud29.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-120 | 3.8MB
+  server: scloud60.jafiyun.world
+  port: 22060
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud60.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-124 | 3.653MB
+  server: scloud52.jafiyun.world
+  port: 22052
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud52.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-119 | 3.104MB
+  server: scloud59.jafiyun.world
+  port: 22059
+  type: trojan
+  password: 8c3085cd-5b6d-35d4-896a-40a62bffb1e3
+  sni: scloud59.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-183.245.149.73-029 | 0.303MB
+  server: hncub.donghui.tech
+  port: 63838
+  type: vmess
+  uuid: ba5ab936-cfcb-4bc1-b2de-d0465cd8e8e9
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hncub.donghui.tech
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +163,36 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-118.212.143.3-130 | 17.217MB
+  - 🇨🇳CN-118.212.143.3-128 | 16.234MB
+  - 🇨🇳CN-118.212.143.3-129 | 15.531MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-118.212.143.3-117 | 14.474MB
+  - 🇨🇳CN-118.212.143.3-118 | 13.85MB
+  - 🇨🇳CN-118.212.143.3-116 | 9.827MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇨🇳CN-118.212.143.3-125 | 8.87MB
+  - 🇨🇳CN-118.212.143.3-127 | 4.538MB
+  - 🇨🇳CN-118.212.143.3-120 | 3.8MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-118.212.143.3-124 | 3.653MB
+  - 🇨🇳CN-118.212.143.3-119 | 3.104MB
+  - 🇨🇳CN-183.245.149.73-029 | 0.303MB
 rules:
 - MATCH,Global ©️
