@@ -1,1 +1,15 @@
 proxies:
+  - {name: 🇨🇳 CN-118.212.143.3-267, server: scloud16.jafiyun.world, port: 22016, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud16.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-255, server: scloud58.jafiyun.world, port: 22058, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud58.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-265, server: scloud12.jafiyun.world, port: 22012, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud12.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-254, server: scloud57.jafiyun.world, port: 22057, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud57.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-113.56.214.51-146, server: cscu.xn--dlq110j6ul.cc, port: 33346, type: vmess, uuid: 75b7ceaf-fba4-4844-ac29-cbcd78b6ce29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cscu.xn--dlq110j6ul.cc}}}
+  - {name: 🇨🇳 CN-118.212.143.3-253, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud56.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-266, server: scloud15.jafiyun.world, port: 22015, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud15.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-262, server: scloud53.jafiyun.world, port: 22053, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud53.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-257, server: scloud60.jafiyun.world, port: 22060, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud60.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-261, server: scloud52.jafiyun.world, port: 22052, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud52.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-118.212.143.3-256, server: scloud59.jafiyun.world, port: 22059, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud59.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-46.51.224.90-077, server: jp001.170203.xyz, port: 23245, type: vmess, uuid: 3c508834-6423-4c69-a058-02f764a6373b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp001.170203.xyz}}}
+  - {name: 🇨🇳 CN-120.232.140.250-258, server: scloud41.jafiyun.world, port: 22041, type: trojan, password: e8d789fd-e876-37a5-a3dd-dd7c7d4d3f55, sni: scloud41.jafiyun.world, skip-cert-verify: false}
+  - {name: 🇨🇳 CN-183.232.204.65-009, server: gzcm.xn--dlq110j6ul.cc, port: 57077, type: vmess, uuid: 4f7895d0-c343-4b79-98bf-57a9347e32d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzcm.xn--dlq110j6ul.cc}}}
