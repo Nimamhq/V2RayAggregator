@@ -17,104 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-118.212.143.3-085 | 9.033MB
-  server: scloud12.jafiyun.world
-  port: 22012
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud12.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-087 | 8.836MB
-  server: scloud16.jafiyun.world
-  port: 22016
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud16.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-086 | 8.797MB
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud15.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-073 | 8.583MB
-  server: scloud56.jafiyun.world
-  port: 22056
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud56.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-075 | 8.469MB
-  server: scloud58.jafiyun.world
-  port: 22058
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud58.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-113.56.214.51-221 | 8.308MB
-  server: cscu.xn--dlq110j6ul.cc
-  port: 33346
-  type: vmess
-  uuid: 7eb31936-9fd0-4e7f-9589-e92848a19663
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cscu.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-118.212.143.3-074 | 7.982MB
-  server: scloud57.jafiyun.world
-  port: 22057
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud57.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-082 | 4.889MB
-  server: scloud53.jafiyun.world
-  port: 22053
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud53.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-076 | 4.255MB
-  server: scloud59.jafiyun.world
-  port: 22059
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud59.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-077 | 3.892MB
-  server: scloud60.jafiyun.world
-  port: 22060
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud60.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-081 | 3.857MB
-  server: scloud52.jafiyun.world
-  port: 22052
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud52.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-083 | 3.514MB
-  server: scloud54.jafiyun.world
-  port: 22054
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud54.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-084 | 1.058MB
-  server: scloud29.jafiyun.world
-  port: 22029
-  type: trojan
-  password: 2d6fa048-f711-3d89-acba-eb79828be7d6
-  sni: scloud29.jafiyun.world
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -170,37 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-118.212.143.3-085 | 9.033MB
-  - 🇨🇳CN-118.212.143.3-087 | 8.836MB
-  - 🇨🇳CN-118.212.143.3-086 | 8.797MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-118.212.143.3-073 | 8.583MB
-  - 🇨🇳CN-118.212.143.3-075 | 8.469MB
-  - 🇨🇳CN-113.56.214.51-221 | 8.308MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-118.212.143.3-074 | 7.982MB
-  - 🇨🇳CN-118.212.143.3-082 | 4.889MB
-  - 🇨🇳CN-118.212.143.3-076 | 4.255MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-077 | 3.892MB
-  - 🇨🇳CN-118.212.143.3-081 | 3.857MB
-  - 🇨🇳CN-118.212.143.3-083 | 3.514MB
-  - 🇨🇳CN-118.212.143.3-084 | 1.058MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
