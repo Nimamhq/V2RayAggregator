@@ -17,125 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-72.44.64.53-057 | 10.176MB
-  server: usmax040.170203.xyz
-  port: 446
-  type: trojan
-  password: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  sni: usmax040.170203.xyz
-  skip-cert-verify: false
-- name: 🇺🇸US-54.174.20.232-023 | 9.638MB
-  server: us02.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us02.170203.xyz
-- name: 🇯🇵JP-18.183.92.58-043 | 9.27MB
-  server: jp03.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp03.170203.xyz
-- name: 🇯🇵JP-46.51.224.90-042 | 9.196MB
-  server: jp001.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp001.170203.xyz
-- name: 🇯🇵JP-18.183.141.171-041 | 8.601MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: 🇰🇷KR-43.200.253.114-039 | 3.301MB
-  server: kr02.170203.xyz
-  port: 443
-  type: trojan
-  password: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  sni: kr02.170203.xyz
-  skip-cert-verify: false
-- name: 🇰🇷KR-43.200.6.99-040 | 2.893MB
-  server: kr01.170203.xyz
-  port: 443
-  type: trojan
-  password: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  sni: kr01.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-54.254.229.241-026 | 2.53MB
-  server: sg003.170203.xyz
-  port: 34333
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg003.170203.xyz
-- name: 🇸🇬SG-52.221.236.176-025 | 1.124MB
-  server: sg002.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg002.170203.xyz
-- name: 🇸🇬SG-13.229.96.233-030 | 0.288MB
-  server: sg05.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: ca2e6a1f-3cdc-4e82-a98c-99977953aac2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg05.170203.xyz
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -191,34 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-72.44.64.53-057 | 10.176MB
-  - 🇺🇸US-54.174.20.232-023 | 9.638MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-18.183.92.58-043 | 9.27MB
-  - 🇯🇵JP-46.51.224.90-042 | 9.196MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-18.183.141.171-041 | 8.601MB
-  - 🇰🇷KR-43.200.253.114-039 | 3.301MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-43.200.6.99-040 | 2.893MB
-  - 🇸🇬SG-54.254.229.241-026 | 2.53MB
-  - 🇸🇬SG-52.221.236.176-025 | 1.124MB
-  - 🇸🇬SG-13.229.96.233-030 | 0.288MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
