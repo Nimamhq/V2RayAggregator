@@ -17,83 +17,139 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-118.212.143.3-045 | 10.817MB
-  server: scloud12.jafiyun.world
-  port: 22012
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud12.jafiyun.world
+- name: 🇺🇸US-54.174.20.232-097 | 11.756MB
+  server: us02.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-047 | 10.691MB
-  server: scloud16.jafiyun.world
-  port: 22016
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud16.jafiyun.world
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.170203.xyz
+- name: 🇯🇵JP-46.51.224.90-113 | 11.51MB
+  server: jp001.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-035 | 10.516MB
-  server: scloud58.jafiyun.world
-  port: 22058
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud58.jafiyun.world
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp001.170203.xyz
+- name: 🇯🇵JP-54.95.255.66-115 | 11.083MB
+  server: jp04.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-046 | 10.468MB
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud15.jafiyun.world
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp04.170203.xyz
+- name: 🇯🇵JP-18.183.141.171-112 | 9.59MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-034 | 10.058MB
-  server: scloud57.jafiyun.world
-  port: 22057
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud57.jafiyun.world
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: 🇯🇵JP-18.183.92.58-114 | 9.291MB
+  server: jp03.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-033 | 10.057MB
-  server: scloud56.jafiyun.world
-  port: 22056
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp03.170203.xyz
+- name: 🇰🇷KR-43.200.253.114-110 | 7.245MB
+  server: kr02.170203.xyz
+  port: 443
   type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud56.jafiyun.world
+  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  sni: kr02.170203.xyz
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-042 | 4.458MB
-  server: scloud53.jafiyun.world
-  port: 22053
+- name: 🇸🇬SG-18.141.207.116-099 | 4.359MB
+  server: sg002.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg002.170203.xyz
+- name: 🇸🇬SG-54.254.229.241-100 | 3.442MB
+  server: sg003.170203.xyz
+  port: 34333
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg003.170203.xyz
+- name: 🇸🇬SG-18.142.226.11-134 | 3.391MB
+  server: hkmax01.170203.xyz
+  port: 443
   type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud53.jafiyun.world
+  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  sni: hkmax01.170203.xyz
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-037 | 3.707MB
-  server: scloud60.jafiyun.world
-  port: 22060
+- name: 🇸🇬SG-13.212.205.108-120 | 2.351MB
+  server: gzdx1.170203.xyz
+  port: 62680
   type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud60.jafiyun.world
+  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  sni: jpmax03.170203.xyz
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-041 | 3.555MB
-  server: scloud52.jafiyun.world
-  port: 22052
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud52.jafiyun.world
+- name: 🇸🇬SG-13.228.24.88-098 | 2.059MB
+  server: sg02.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-043 | 2.888MB
-  server: scloud54.jafiyun.world
-  port: 22054
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud54.jafiyun.world
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-036 | 1.767MB
-  server: scloud59.jafiyun.world
-  port: 22059
-  type: trojan
-  password: 4e719610-45b0-394e-8684-276cd90c6f93
-  sni: scloud59.jafiyun.world
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg02.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -150,34 +206,34 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-045 | 10.817MB
-  - 🇨🇳CN-118.212.143.3-047 | 10.691MB
+  - 🇺🇸US-54.174.20.232-097 | 11.756MB
+  - 🇯🇵JP-46.51.224.90-113 | 11.51MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-035 | 10.516MB
-  - 🇨🇳CN-118.212.143.3-046 | 10.468MB
+  - 🇯🇵JP-54.95.255.66-115 | 11.083MB
+  - 🇯🇵JP-18.183.141.171-112 | 9.59MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-034 | 10.058MB
-  - 🇨🇳CN-118.212.143.3-033 | 10.057MB
+  - 🇯🇵JP-18.183.92.58-114 | 9.291MB
+  - 🇰🇷KR-43.200.253.114-110 | 7.245MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-042 | 4.458MB
-  - 🇨🇳CN-118.212.143.3-037 | 3.707MB
-  - 🇨🇳CN-118.212.143.3-041 | 3.555MB
-  - 🇨🇳CN-118.212.143.3-043 | 2.888MB
-  - 🇨🇳CN-118.212.143.3-036 | 1.767MB
+  - 🇸🇬SG-18.141.207.116-099 | 4.359MB
+  - 🇸🇬SG-54.254.229.241-100 | 3.442MB
+  - 🇸🇬SG-18.142.226.11-134 | 3.391MB
+  - 🇸🇬SG-13.212.205.108-120 | 2.351MB
+  - 🇸🇬SG-13.228.24.88-098 | 2.059MB
 rules:
 - MATCH,Global ©️
