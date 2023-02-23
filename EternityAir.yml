@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.174.20.232-097 | 11.756MB
+- name: 🇺🇸US-54.174.20.232-060 | 13.384MB
   server: us02.170203.xyz
   port: 43543
   type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
   alterId: 0
   cipher: auto
   tls: false
@@ -31,25 +31,11 @@ proxies:
     path: /
     headers:
       Host: us02.170203.xyz
-- name: 🇯🇵JP-46.51.224.90-113 | 11.51MB
-  server: jp001.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp001.170203.xyz
-- name: 🇯🇵JP-54.95.255.66-115 | 11.083MB
+- name: 🇯🇵JP-54.95.255.66-078 | 13.222MB
   server: jp04.170203.xyz
   port: 23245
   type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
   alterId: 0
   cipher: auto
   tls: false
@@ -59,25 +45,11 @@ proxies:
     path: /
     headers:
       Host: jp04.170203.xyz
-- name: 🇯🇵JP-18.183.141.171-112 | 9.59MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: 🇯🇵JP-18.183.92.58-114 | 9.291MB
+- name: 🇯🇵JP-18.183.92.58-077 | 13.089MB
   server: jp03.170203.xyz
   port: 23245
   type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
   alterId: 0
   cipher: auto
   tls: false
@@ -87,60 +59,39 @@ proxies:
     path: /
     headers:
       Host: jp03.170203.xyz
-- name: 🇰🇷KR-43.200.253.114-110 | 7.245MB
+- name: 🇯🇵JP-18.183.141.171-075 | 12.597MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: 🇰🇷KR-43.200.253.114-073 | 12.319MB
   server: kr02.170203.xyz
   port: 443
   type: trojan
-  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  password: 9825c729-b181-412e-893c-74b44fb28d21
   sni: kr02.170203.xyz
   skip-cert-verify: false
-- name: 🇸🇬SG-18.141.207.116-099 | 4.359MB
-  server: sg002.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg002.170203.xyz
-- name: 🇸🇬SG-54.254.229.241-100 | 3.442MB
-  server: sg003.170203.xyz
-  port: 34333
-  type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg003.170203.xyz
-- name: 🇸🇬SG-18.142.226.11-134 | 3.391MB
-  server: hkmax01.170203.xyz
-  port: 443
-  type: trojan
-  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
-  sni: hkmax01.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.212.205.108-120 | 2.351MB
+- name: 🇸🇬SG-13.212.205.108-083 | 12.283MB
   server: gzdx1.170203.xyz
   port: 62680
   type: trojan
-  password: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  password: 9825c729-b181-412e-893c-74b44fb28d21
   sni: jpmax03.170203.xyz
   skip-cert-verify: false
-- name: 🇸🇬SG-13.228.24.88-098 | 2.059MB
+- name: 🇸🇬SG-13.228.24.88-061 | 3.848MB
   server: sg02.170203.xyz
   port: 43543
   type: vmess
-  uuid: 01a544f3-4ac1-449d-85e9-2f3d7c10a41f
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
   alterId: 0
   cipher: auto
   tls: false
@@ -150,6 +101,41 @@ proxies:
     path: /
     headers:
       Host: sg02.170203.xyz
+- name: 🇸🇬SG-13.215.177.197-065 | 3.395MB
+  server: sg04.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 9825c729-b181-412e-893c-74b44fb28d21
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg04.170203.xyz
+- name: 🇸🇬SG-13.212.205.108-096 | 3.312MB
+  server: gzdx1.170203.xyz
+  port: 62594
+  type: trojan
+  password: 9825c729-b181-412e-893c-74b44fb28d21
+  sni: hkmax06.170203.xyz
+  skip-cert-verify: false
+- name: 🇸🇬SG-18.142.226.11-097 | 1.305MB
+  server: hkmax01.170203.xyz
+  port: 443
+  type: trojan
+  password: 9825c729-b181-412e-893c-74b44fb28d21
+  sni: hkmax01.170203.xyz
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-376 | 0.502MB
+  server: scloud12.jafiyun.world
+  port: 22012
+  type: trojan
+  password: 0d17d742-ef0e-32fb-8ba6-6f0cd0246379
+  sni: scloud12.jafiyun.world
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -206,34 +192,34 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.174.20.232-097 | 11.756MB
-  - 🇯🇵JP-46.51.224.90-113 | 11.51MB
+  - 🇺🇸US-54.174.20.232-060 | 13.384MB
+  - 🇯🇵JP-54.95.255.66-078 | 13.222MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-54.95.255.66-115 | 11.083MB
-  - 🇯🇵JP-18.183.141.171-112 | 9.59MB
+  - 🇯🇵JP-18.183.92.58-077 | 13.089MB
+  - 🇯🇵JP-18.183.141.171-075 | 12.597MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-18.183.92.58-114 | 9.291MB
-  - 🇰🇷KR-43.200.253.114-110 | 7.245MB
+  - 🇰🇷KR-43.200.253.114-073 | 12.319MB
+  - 🇸🇬SG-13.212.205.108-083 | 12.283MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-18.141.207.116-099 | 4.359MB
-  - 🇸🇬SG-54.254.229.241-100 | 3.442MB
-  - 🇸🇬SG-18.142.226.11-134 | 3.391MB
-  - 🇸🇬SG-13.212.205.108-120 | 2.351MB
-  - 🇸🇬SG-13.228.24.88-098 | 2.059MB
+  - 🇸🇬SG-13.228.24.88-061 | 3.848MB
+  - 🇸🇬SG-13.215.177.197-065 | 3.395MB
+  - 🇸🇬SG-13.212.205.108-096 | 3.312MB
+  - 🇸🇬SG-18.142.226.11-097 | 1.305MB
+  - 🇨🇳CN-118.212.143.3-376 | 0.502MB
 rules:
 - MATCH,Global ©️
