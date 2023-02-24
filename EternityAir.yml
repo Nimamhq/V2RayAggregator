@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-54.174.20.232-006 | 9.712MB
+- name: 🇺🇸US-54.174.20.232-072 | 14.345MB
   server: us02.170203.xyz
   port: 43543
   type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
   alterId: 0
   cipher: auto
   tls: false
@@ -31,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: us02.170203.xyz
-- name: 🇯🇵JP-54.238.150.3-026 | 9.67MB
+- name: 🇯🇵JP-54.238.150.3-092 | 14.294MB
   server: jp03.170203.xyz
   port: 23245
   type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
   alterId: 0
   cipher: auto
   tls: false
@@ -45,53 +45,11 @@ proxies:
     path: /
     headers:
       Host: jp03.170203.xyz
-- name: 🇯🇵JP-54.199.142.44-028 | 9.248MB
-  server: jp05.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp05.170203.xyz
-- name: 🇯🇵JP-18.183.141.171-024 | 9.099MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
-- name: 🇰🇷KR-43.200.253.114-022 | 8.83MB
-  server: kr02.170203.xyz
-  port: 443
-  type: trojan
-  password: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  sni: kr02.170203.xyz
-  skip-cert-verify: false
-- name: 🇰🇷KR-43.200.6.99-023 | 7.536MB
-  server: kr01.170203.xyz
-  port: 443
-  type: trojan
-  password: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  sni: kr01.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-54.95.255.66-027 | 4.064MB
+- name: 🇯🇵JP-54.95.255.66-093 | 13.184MB
   server: jp04.170203.xyz
   port: 23245
   type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
   alterId: 0
   cipher: auto
   tls: false
@@ -101,11 +59,11 @@ proxies:
     path: /
     headers:
       Host: jp04.170203.xyz
-- name: 🇸🇬SG-13.229.243.237-009 | 3.924MB
-  server: sg003.170203.xyz
-  port: 34333
+- name: 🇯🇵JP-18.183.141.171-090 | 13.163MB
+  server: jp02.170203.xyz
+  port: 23245
   type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
   alterId: 0
   cipher: auto
   tls: false
@@ -114,19 +72,68 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sg003.170203.xyz
-- name: 🇸🇬SG-13.212.13.153-016 | 3.187MB
-  server: gzdx1.170203.xyz
-  port: 58630
+      Host: jp02.170203.xyz
+- name: 🇰🇷KR-43.200.6.99-089 | 12.988MB
+  server: kr01.170203.xyz
+  port: 443
   type: trojan
-  password: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  sni: 0a01f3ad01.170203.xyz
+  password: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
+  sni: kr01.170203.xyz
   skip-cert-verify: false
-- name: 🇸🇬SG-52.221.227.3-012 | 2.861MB
-  server: sg05.170203.xyz
+- name: 🇯🇵JP-54.199.142.44-094 | 12.755MB
+  server: jp05.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp05.170203.xyz
+- name: 🇰🇷KR-43.200.253.114-088 | 4.205MB
+  server: kr02.170203.xyz
+  port: 443
+  type: trojan
+  password: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
+  sni: kr02.170203.xyz
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-211 | 3.853MB
+  server: scloud12.jafiyun.world
+  port: 22012
+  type: trojan
+  password: a03b55f1-9618-3a5e-8038-d7e3507d4f53
+  sni: scloud12.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-213 | 3.57MB
+  server: scloud16.jafiyun.world
+  port: 22016
+  type: trojan
+  password: a03b55f1-9618-3a5e-8038-d7e3507d4f53
+  sni: scloud16.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-212 | 2.287MB
+  server: scloud15.jafiyun.world
+  port: 22015
+  type: trojan
+  password: a03b55f1-9618-3a5e-8038-d7e3507d4f53
+  sni: scloud15.jafiyun.world
+  skip-cert-verify: false
+- name: 🇨🇳CN-118.212.143.3-201 | 0.838MB
+  server: scloud58.jafiyun.world
+  port: 22058
+  type: trojan
+  password: a03b55f1-9618-3a5e-8038-d7e3507d4f53
+  sni: scloud58.jafiyun.world
+  skip-cert-verify: false
+- name: 🇸🇬SG-52.77.250.94-073 | 0.196MB
+  server: sg02.170203.xyz
   port: 43543
   type: vmess
-  uuid: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
+  uuid: e299bf19-1d8a-4688-8d5e-bbf3a21ea113
   alterId: 0
   cipher: auto
   tls: false
@@ -135,21 +142,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sg05.170203.xyz
-- name: 🇸🇬SG-13.212.13.153-040 | 1.857MB
-  server: gzdx1.170203.xyz
-  port: 27528
-  type: trojan
-  password: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  sni: usmax040.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.212.13.153-043 | 0.36MB
-  server: gzdx1.170203.xyz
-  port: 56259
-  type: trojan
-  password: 43cc0688-c3f1-4b85-8d3d-e2d53f560791
-  sni: hkmax02.170203.xyz
-  skip-cert-verify: false
+      Host: sg02.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -206,35 +199,35 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-54.174.20.232-006 | 9.712MB
-  - 🇯🇵JP-54.238.150.3-026 | 9.67MB
-  - 🇯🇵JP-54.199.142.44-028 | 9.248MB
+  - 🇺🇸US-54.174.20.232-072 | 14.345MB
+  - 🇯🇵JP-54.238.150.3-092 | 14.294MB
+  - 🇯🇵JP-54.95.255.66-093 | 13.184MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-18.183.141.171-024 | 9.099MB
-  - 🇰🇷KR-43.200.253.114-022 | 8.83MB
-  - 🇰🇷KR-43.200.6.99-023 | 7.536MB
+  - 🇯🇵JP-18.183.141.171-090 | 13.163MB
+  - 🇰🇷KR-43.200.6.99-089 | 12.988MB
+  - 🇯🇵JP-54.199.142.44-094 | 12.755MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-54.95.255.66-027 | 4.064MB
-  - 🇸🇬SG-13.229.243.237-009 | 3.924MB
-  - 🇸🇬SG-13.212.13.153-016 | 3.187MB
+  - 🇰🇷KR-43.200.253.114-088 | 4.205MB
+  - 🇨🇳CN-118.212.143.3-211 | 3.853MB
+  - 🇨🇳CN-118.212.143.3-213 | 3.57MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-52.221.227.3-012 | 2.861MB
-  - 🇸🇬SG-13.212.13.153-040 | 1.857MB
-  - 🇸🇬SG-13.212.13.153-043 | 0.36MB
+  - 🇨🇳CN-118.212.143.3-212 | 2.287MB
+  - 🇨🇳CN-118.212.143.3-201 | 0.838MB
+  - 🇸🇬SG-52.77.250.94-073 | 0.196MB
 rules:
 - MATCH,Global ©️
