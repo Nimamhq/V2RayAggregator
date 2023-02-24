@@ -17,132 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇯🇵JP-54.95.255.66-027 | 13.171MB
-  server: jp04.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp04.170203.xyz
-- name: 🇯🇵JP-54.199.142.44-028 | 12.755MB
-  server: jp05.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp05.170203.xyz
-- name: 🇨🇳CN-118.212.143.3-121 | 12.694MB
-  server: scloud15.jafiyun.world
-  port: 22015
-  type: trojan
-  password: dc2b291c-7f7a-30ed-8752-cdb91bb13c86
-  sni: scloud15.jafiyun.world
-  skip-cert-verify: false
-- name: 🇸🇬SG-52.221.227.3-012 | 12.433MB
-  server: sg05.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg05.170203.xyz
-- name: 🇨🇳CN-118.212.143.3-122 | 12.404MB
-  server: scloud16.jafiyun.world
-  port: 22016
-  type: trojan
-  password: dc2b291c-7f7a-30ed-8752-cdb91bb13c86
-  sni: scloud16.jafiyun.world
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.212.13.153-043 | 12.255MB
-  server: gzdx1.170203.xyz
-  port: 56259
-  type: trojan
-  password: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  sni: hkmax02.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.250.42.136-011 | 11.796MB
-  server: sg04.170203.xyz
-  port: 43543
-  type: vmess
-  uuid: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg04.170203.xyz
-- name: 🇨🇳CN-118.212.143.3-120 | 4.111MB
-  server: scloud12.jafiyun.world
-  port: 22012
-  type: trojan
-  password: dc2b291c-7f7a-30ed-8752-cdb91bb13c86
-  sni: scloud12.jafiyun.world
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.212.13.153-040 | 3.869MB
-  server: gzdx1.170203.xyz
-  port: 27528
-  type: trojan
-  password: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  sni: usmax040.170203.xyz
-  skip-cert-verify: false
-- name: 🇨🇳CN-118.212.143.3-110 | 3.731MB
-  server: scloud58.jafiyun.world
-  port: 22058
-  type: trojan
-  password: dc2b291c-7f7a-30ed-8752-cdb91bb13c86
-  sni: scloud58.jafiyun.world
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.212.13.153-018 | 3.709MB
-  server: gzdx1.170203.xyz
-  port: 24798
-  type: trojan
-  password: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  sni: sgmax03.170203.xyz
-  skip-cert-verify: false
-- name: 🇸🇬SG-13.229.243.237-009 | 2.864MB
-  server: sg003.170203.xyz
-  port: 34333
-  type: vmess
-  uuid: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg003.170203.xyz
-- name: 🇸🇬SG-13.212.13.153-016 | 2.84MB
-  server: gzdx1.170203.xyz
-  port: 58630
-  type: trojan
-  password: ed8e8734-5d66-4a65-9637-ce30a3d0af13
-  sni: 0a01f3ad01.170203.xyz
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -198,37 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-54.95.255.66-027 | 13.171MB
-  - 🇯🇵JP-54.199.142.44-028 | 12.755MB
-  - 🇨🇳CN-118.212.143.3-121 | 12.694MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇸🇬SG-52.221.227.3-012 | 12.433MB
-  - 🇨🇳CN-118.212.143.3-122 | 12.404MB
-  - 🇸🇬SG-13.212.13.153-043 | 12.255MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇸🇬SG-13.250.42.136-011 | 11.796MB
-  - 🇨🇳CN-118.212.143.3-120 | 4.111MB
-  - 🇸🇬SG-13.212.13.153-040 | 3.869MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-110 | 3.731MB
-  - 🇸🇬SG-13.212.13.153-018 | 3.709MB
-  - 🇸🇬SG-13.229.243.237-009 | 2.864MB
-  - 🇸🇬SG-13.212.13.153-016 | 2.84MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
