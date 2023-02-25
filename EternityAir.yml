@@ -17,11 +17,39 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-14.18.81.201-000 | 13.312MB
-  server: gzdx.jcnode.top
-  port: 20000
+- name: 🇨🇳CN-223.244.25.161-000 | 10.747MB
+  server: dxhefei01.baipiaozf.com
+  port: 32247
   type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dxhefei01.baipiaozf.com
+- name: 🇨🇳CN-183.232.204.65-001 | 10.735MB
+  server: gzcm.xn--dlq110j6ul.cc
+  port: 21776
+  type: vmess
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzcm.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-14.18.81.201-002 | 10.649MB
+  server: gzdx.jcnode.top
+  port: 40000
+  type: vmess
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
   alterId: 0
   cipher: auto
   tls: false
@@ -31,11 +59,25 @@ proxies:
     path: /
     headers:
       Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-002 | 13.026MB
-  server: gzdx.jcnode.top
-  port: 20001
+- name: 🇨🇳CN-121.204.163.149-003 | 8.804MB
+  server: shct.xn--dlq110j6ul.cc
+  port: 20598
   type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shct.xn--dlq110j6ul.cc
+- name: 🇨🇳CN-14.18.81.201-004 | 8.723MB
+  server: gzdx.jcnode.top
+  port: 40001
+  type: vmess
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
   alterId: 0
   cipher: auto
   tls: false
@@ -45,11 +87,25 @@ proxies:
     path: /
     headers:
       Host: gzdx.jcnode.top
-- name: 🇨🇳CN-106.225.205.220-003 | 12.991MB
+- name: 🇨🇳CN-14.18.81.201-005 | 8.703MB
+  server: gzdx.jcnode.top
+  port: 41001
+  type: vmess
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzdx.jcnode.top
+- name: 🇨🇳CN-106.225.199.250-006 | 4.547MB
   server: xmct.xn--dlq110j6ul.cc
-  port: 17141
+  port: 10851
   type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
   alterId: 0
   cipher: auto
   tls: false
@@ -59,11 +115,11 @@ proxies:
     path: /
     headers:
       Host: xmct.xn--dlq110j6ul.cc
-- name: 🇨🇳CN-183.222.27.52-004 | 12.934MB
+- name: 🇨🇳CN-183.222.27.52-007 | 4.068MB
   server: ydsichuan01.bpzhuanfa.com
-  port: 12716
+  port: 42983
   type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
+  uuid: 63711e75-5521-4088-bdd5-9890cb22079a
   alterId: 0
   cipher: auto
   tls: false
@@ -73,111 +129,34 @@ proxies:
     path: /
     headers:
       Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-183.222.27.52-005 | 12.904MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 20059
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-101.89.140.242-006 | 12.559MB
-  server: shcm.donghui.tech
-  port: 54692
-  type: trojan
-  password: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  sni: uk01.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-125.88.210.172-007 | 11.401MB
-  server: gddxd.fosi.hk
-  port: 44226
-  type: trojan
-  password: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  sni: uk01.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-14.18.81.201-008 | 4.326MB
+- name: 🇨🇳CN-14.18.81.201-008 | 3.886MB
   server: gzdx.jcnode.top
-  port: 21001
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-183.222.27.52-009 | 4.239MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 26899
+  port: 41002
   type: trojan
-  password: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  sni: sk01.ckcloud.info
+  password: 63711e75-5521-4088-bdd5-9890cb22079a
+  sni: jp01.ckcloud.info
   skip-cert-verify: false
-- name: 🇨🇳CN-183.222.27.52-010 | 4.026MB
-  server: ydsichuan01.bpzhuanfa.com
-  port: 39704
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-14.18.81.201-010 | 3.697MB
+  server: gzdx.jcnode.top
+  port: 41002
+  type: trojan
+  password: 63711e75-5521-4088-bdd5-9890cb22079a
+  sni: jp01.ckcloud.info
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ydsichuan01.bpzhuanfa.com
-- name: 🇨🇳CN-120.232.56.48-011 | 3.934MB
-  server: hncu.donghui.tech
-  port: 33956
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-14.18.81.201-011 | 3.335MB
+  server: gzdx.jcnode.top
+  port: 41003
+  type: trojan
+  password: 63711e75-5521-4088-bdd5-9890cb22079a
+  sni: jp01.ckcloud.info
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hncu.donghui.tech
-- name: 🇨🇳CN-125.88.210.172-012 | 3.886MB
-  server: gddxd.fosi.hk
-  port: 63389
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇨🇳CN-14.18.81.201-013 | 3.166MB
+  server: gzdx.jcnode.top
+  port: 41003
+  type: trojan
+  password: 63711e75-5521-4088-bdd5-9890cb22079a
+  sni: jp01.ckcloud.info
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddxd.fosi.hk
-- name: 🇨🇳CN-14.29.242.116-013 | 3.823MB
-  server: gddx.fosi.hk
-  port: 55538
-  type: vmess
-  uuid: 7094b5fa-e94d-4ef4-991f-029d77eaddf1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gddx.fosi.hk
 proxy-groups:
 - name: Global ©️
   type: select
@@ -234,36 +213,35 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.18.81.201-000 | 13.312MB
-  - 🇨🇳CN-14.18.81.201-002 | 13.026MB
-  - 🇨🇳CN-106.225.205.220-003 | 12.991MB
+  - 🇨🇳CN-223.244.25.161-000 | 10.747MB
+  - 🇨🇳CN-183.232.204.65-001 | 10.735MB
+  - 🇨🇳CN-14.18.81.201-002 | 10.649MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-183.222.27.52-004 | 12.934MB
-  - 🇨🇳CN-183.222.27.52-005 | 12.904MB
-  - 🇨🇳CN-101.89.140.242-006 | 12.559MB
+  - 🇨🇳CN-121.204.163.149-003 | 8.804MB
+  - 🇨🇳CN-14.18.81.201-004 | 8.723MB
+  - 🇨🇳CN-14.18.81.201-005 | 8.703MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-125.88.210.172-007 | 11.401MB
-  - 🇨🇳CN-14.18.81.201-008 | 4.326MB
-  - 🇨🇳CN-183.222.27.52-009 | 4.239MB
+  - 🇨🇳CN-106.225.199.250-006 | 4.547MB
+  - 🇨🇳CN-183.222.27.52-007 | 4.068MB
+  - 🇨🇳CN-14.18.81.201-008 | 3.886MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-183.222.27.52-010 | 4.026MB
-  - 🇨🇳CN-120.232.56.48-011 | 3.934MB
-  - 🇨🇳CN-125.88.210.172-012 | 3.886MB
-  - 🇨🇳CN-14.29.242.116-013 | 3.823MB
+  - 🇨🇳CN-14.18.81.201-010 | 3.697MB
+  - 🇨🇳CN-14.18.81.201-011 | 3.335MB
+  - 🇨🇳CN-14.18.81.201-013 | 3.166MB
 rules:
 - MATCH,Global ©️
