@@ -17,7 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-199.195.252.27-138 | 35.543MB
+- name: 🇺🇸US-199.195.252.27-138 | 54.265MB
   server: 199.195.252.27
   port: 80
   type: vmess
@@ -26,7 +26,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-  servername: 🇺🇸US-199.195.252.27-138 | 35.543MB
+  servername: 🇺🇸US-199.195.252.27-138 | 54.265MB
   network: ws
   ws-opts:
     path: /
@@ -106,6 +106,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-199.195.252.27-138 | 35.543MB
+  - 🇺🇸US-199.195.252.27-138 | 54.265MB
 rules:
 - MATCH,Global ©️
