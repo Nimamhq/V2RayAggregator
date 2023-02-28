@@ -17,13 +17,21 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-118.212.143.3-000 | 35.841MB
-  server: scloud56.jafiyun.world
-  port: 22056
-  type: trojan
-  password: acb39815-29b4-344b-bc57-b78c60ab82c7
-  sni: scloud56.jafiyun.world
+- name: 🇺🇸US-199.195.252.27-138 | 35.543MB
+  server: 199.195.252.27
+  port: 80
+  type: vmess
+  uuid: 121e8b54-7b6c-33d5-b7e0-1a514e9ed7ea
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
+  servername: 🇺🇸US-199.195.252.27-138 | 35.543MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tms.dingtalk.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -98,6 +106,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-118.212.143.3-000 | 35.841MB
+  - 🇺🇸US-199.195.252.27-138 | 35.543MB
 rules:
 - MATCH,Global ©️
