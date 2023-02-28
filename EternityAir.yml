@@ -17,7 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇺🇸US-54.175.142.157-011 | 189.132MB
+  server: us02.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: a31cacd3-6784-4f3b-b58f-64b899bd66df
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -92,6 +105,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇺🇸US-54.175.142.157-011 | 189.132MB
 rules:
 - MATCH,Global ©️
