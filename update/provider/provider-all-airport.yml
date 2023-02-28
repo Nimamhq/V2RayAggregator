@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 US-52.91.9.167-028, server: us02.170203.xyz, port: 43543, type: vmess, uuid: 3c7f3e2a-938d-40c6-8687-aed51a3129ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.170203.xyz}}}
+  - {name: 🇨🇳 CN-118.212.143.3-000, server: scloud56.jafiyun.world, port: 22056, type: trojan, password: acb39815-29b4-344b-bc57-b78c60ab82c7, sni: scloud56.jafiyun.world, skip-cert-verify: false}
