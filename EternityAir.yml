@@ -17,90 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-14.18.81.201-000 | 8.05MB
-  server: gzdx.jcnode.top
-  port: 20000
-  type: vmess
-  uuid: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-14.18.81.201-002 | 7.937MB
-  server: gzdx.jcnode.top
-  port: 20002
-  type: trojan
-  password: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  sni: hk01.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-14.18.81.201-003 | 7.821MB
-  server: gzdx.jcnode.top
-  port: 20003
-  type: trojan
-  password: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  sni: hk02.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-14.18.81.201-005 | 7.074MB
-  server: gzdx.jcnode.top
-  port: 20001
-  type: vmess
-  uuid: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-101.89.140.242-006 | 6.386MB
-  server: shcm.donghui.tech
-  port: 54692
-  type: trojan
-  password: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  sni: uk01.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-125.88.210.172-007 | 5.885MB
-  server: gddxd.fosi.hk
-  port: 44226
-  type: trojan
-  password: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  sni: uk01.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-14.18.81.201-008 | 5.791MB
-  server: gzdx.jcnode.top
-  port: 21001
-  type: vmess
-  uuid: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzdx.jcnode.top
-- name: 🇨🇳CN-106.225.205.220-009 | 5.291MB
-  server: xmct.xn--dlq110j6ul.cc
-  port: 45673
-  type: vmess
-  uuid: d12762b2-069f-4d84-9ebc-11fb281b87fb
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xmct.xn--dlq110j6ul.cc
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -156,32 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-14.18.81.201-000 | 8.05MB
-  - 🇨🇳CN-14.18.81.201-002 | 7.937MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-14.18.81.201-003 | 7.821MB
-  - 🇨🇳CN-14.18.81.201-005 | 7.074MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-101.89.140.242-006 | 6.386MB
-  - 🇨🇳CN-125.88.210.172-007 | 5.885MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-14.18.81.201-008 | 5.791MB
-  - 🇨🇳CN-106.225.205.220-009 | 5.291MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
