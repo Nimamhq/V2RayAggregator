@@ -17,7 +17,76 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇺🇸US-54.174.205.227-035 | 8.103MB
+  server: us02.170203.xyz
+  port: 43543
+  type: vmess
+  uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us02.170203.xyz
+- name: 🇺🇸US-3.145.178.107-034 | 8.052MB
+  server: us01.170203.xyz
+  port: 443
+  type: trojan
+  password: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  sni: us01.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-54.238.172.64-059 | 7.9MB
+  server: jp02.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp02.170203.xyz
+- name: 🇯🇵JP-54.178.51.201-069 | 7.883MB
+  server: jp003.170203.xyz
+  port: 34522
+  type: trojan
+  password: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  sni: jp003.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-54.250.243.199-065 | 7.228MB
+  server: jpmax03.170203.xyz
+  port: 443
+  type: trojan
+  password: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  sni: jpmax03.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-13.230.246.62-068 | 6.496MB
+  server: jpmax05.170203.xyz
+  port: 443
+  type: trojan
+  password: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  sni: jpmax05.170203.xyz
+  skip-cert-verify: false
+- name: 🇯🇵JP-54.250.243.88-063 | 4.114MB
+  server: jp05.170203.xyz
+  port: 23245
+  type: vmess
+  uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp05.170203.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +142,31 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-54.174.205.227-035 | 8.103MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-3.145.178.107-034 | 8.052MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇯🇵JP-54.238.172.64-059 | 7.9MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇯🇵JP-54.178.51.201-069 | 7.883MB
+  - 🇯🇵JP-54.250.243.199-065 | 7.228MB
+  - 🇯🇵JP-13.230.246.62-068 | 6.496MB
+  - 🇯🇵JP-54.250.243.88-063 | 4.114MB
 rules:
 - MATCH,Global ©️

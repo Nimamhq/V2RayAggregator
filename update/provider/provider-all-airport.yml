@@ -1,1 +1,8 @@
 proxies:
+  - {name: 🇺🇸 US-54.174.205.227-035, server: us02.170203.xyz, port: 43543, type: vmess, uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.170203.xyz}}}
+  - {name: 🇺🇸 US-3.145.178.107-034, server: us01.170203.xyz, port: 443, type: trojan, password: 24772da5-1dd3-4539-af41-ca91e59eb7f3, sni: us01.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-54.238.172.64-059, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
+  - {name: 🇯🇵 JP-54.178.51.201-069, server: jp003.170203.xyz, port: 34522, type: trojan, password: 24772da5-1dd3-4539-af41-ca91e59eb7f3, sni: jp003.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-54.250.243.199-065, server: jpmax03.170203.xyz, port: 443, type: trojan, password: 24772da5-1dd3-4539-af41-ca91e59eb7f3, sni: jpmax03.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-13.230.246.62-068, server: jpmax05.170203.xyz, port: 443, type: trojan, password: 24772da5-1dd3-4539-af41-ca91e59eb7f3, sni: jpmax05.170203.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-54.250.243.88-063, server: jp05.170203.xyz, port: 23245, type: vmess, uuid: 24772da5-1dd3-4539-af41-ca91e59eb7f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp05.170203.xyz}}}
