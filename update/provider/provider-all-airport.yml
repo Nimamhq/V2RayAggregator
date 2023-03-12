@@ -1,1 +1,8 @@
 proxies:
+  - {name: 🇺🇸 US-35.173.137.234-049, server: us02.170203.xyz, port: 43543, type: vmess, uuid: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.170203.xyz}}}
+  - {name: 🇯🇵 JP-52.192.58.50-065, server: jp03.170203.xyz, port: 23245, type: vmess, uuid: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.170203.xyz}}}
+  - {name: 🇯🇵 JP-54.238.231.27-063, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
+  - {name: 🇰🇷 KR-43.200.253.114-062, server: kr02.170203.xyz, port: 443, type: trojan, password: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, sni: kr02.170203.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-18.139.225.91-039, server: sg02.170203.xyz, port: 443, type: trojan, password: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, sni: sg02.170203.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-54.169.106.234-040, server: sg03.170203.xyz, port: 443, type: trojan, password: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, sni: sg03.170203.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-52.77.208.127-038, server: sg0001.170203.xyz, port: 443, type: trojan, password: fcbb0719-95fd-4170-aa05-195eb0fc9b1d, sni: sg0001.170203.xyz, skip-cert-verify: false}
