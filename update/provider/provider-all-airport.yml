@@ -1,8 +1,1 @@
 proxies:
-  - {name: 🇺🇸 US-35.173.137.234-037, server: us02.170203.xyz, port: 43543, type: vmess, uuid: 3f743741-4394-4628-8d85-4596429e5584, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us02.170203.xyz}}}
-  - {name: 🇯🇵 JP-54.238.231.27-051, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: 3f743741-4394-4628-8d85-4596429e5584, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
-  - {name: 🇯🇵 JP-18.183.85.86-054, server: jp05.170203.xyz, port: 23245, type: vmess, uuid: 3f743741-4394-4628-8d85-4596429e5584, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp05.170203.xyz}}}
-  - {name: 🇯🇵 JP-52.192.58.50-053, server: jp03.170203.xyz, port: 23245, type: vmess, uuid: 3f743741-4394-4628-8d85-4596429e5584, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp03.170203.xyz}}}
-  - {name: 🇰🇷 KR-43.200.253.114-050, server: kr02.170203.xyz, port: 443, type: trojan, password: 3f743741-4394-4628-8d85-4596429e5584, sni: kr02.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-43.207.68.127-060, server: gzdx1.170203.xyz, port: 27528, type: trojan, password: 3f743741-4394-4628-8d85-4596429e5584, sni: usmax040.170203.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-18.141.158.67-041, server: sg05.170203.xyz, port: 43543, type: vmess, uuid: 3f743741-4394-4628-8d85-4596429e5584, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg05.170203.xyz}}}
