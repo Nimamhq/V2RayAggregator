@@ -17,31 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇨🇳CN-120.198.71.191-028 | 13.024MB
-  server: gzyd.jcnode.top
-  port: 40001
-  type: trojan
-  password: 432a738a-7fb5-4041-af01-96aa96f2325e
-  sni: hk02.ckcloud.info
-  skip-cert-verify: false
-- name: 🇨🇳CN-120.198.71.191-036 | 12.913MB
-  server: gzyd.jcnode.top
-  port: 41002
-  type: ss
-  cipher: aes-256-gcm
-  password: 432a738a-7fb5-4041-af01-96aa96f2325e
-- name: 🇨🇳CN-120.198.71.191-033 | 12.737MB
-  server: gzyd.jcnode.top
-  port: 40003
-  type: ss
-  cipher: aes-256-gcm
-  password: 432a738a-7fb5-4041-af01-96aa96f2325e
-- name: 🇨🇳CN-120.198.71.191-031 | 12.72MB
-  server: gzyd.jcnode.top
-  port: 40002
-  type: ss
-  cipher: aes-256-gcm
-  password: 432a738a-7fb5-4041-af01-96aa96f2325e
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -97,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.198.71.191-028 | 13.024MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.198.71.191-036 | 12.913MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇨🇳CN-120.198.71.191-033 | 12.737MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳CN-120.198.71.191-031 | 12.72MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
