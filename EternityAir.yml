@@ -17,41 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇯🇵JP-52.197.167.5-088 | 8.102MB
-  server: gzdx1.170203.xyz
-  port: 29832
-  type: trojan
-  password: 4599f2ba-0c63-499b-b808-a07b37d076e8
-  sni: jp01.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-54.238.215.131-106 | 8.096MB
-  server: jpmax05.170203.xyz
-  port: 443
-  type: trojan
-  password: 4599f2ba-0c63-499b-b808-a07b37d076e8
-  sni: jpmax05.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-43.206.224.216-107 | 6.724MB
-  server: jp03.170203.xyz
-  port: 443
-  type: trojan
-  password: 4599f2ba-0c63-499b-b808-a07b37d076e8
-  sni: jp03.170203.xyz
-  skip-cert-verify: false
-- name: 🇯🇵JP-18.181.182.203-109 | 5.25MB
-  server: jp02.170203.xyz
-  port: 23245
-  type: vmess
-  uuid: 4599f2ba-0c63-499b-b808-a07b37d076e8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp02.170203.xyz
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -107,28 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-52.197.167.5-088 | 8.102MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-54.238.215.131-106 | 8.096MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇯🇵JP-43.206.224.216-107 | 6.724MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-18.181.182.203-109 | 5.25MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

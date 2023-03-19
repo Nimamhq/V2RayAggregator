@@ -1,5 +1,1 @@
 proxies:
-  - {name: 🇯🇵 JP-52.197.167.5-088, server: gzdx1.170203.xyz, port: 29832, type: trojan, password: 4599f2ba-0c63-499b-b808-a07b37d076e8, sni: jp01.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-54.238.215.131-106, server: jpmax05.170203.xyz, port: 443, type: trojan, password: 4599f2ba-0c63-499b-b808-a07b37d076e8, sni: jpmax05.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-43.206.224.216-107, server: jp03.170203.xyz, port: 443, type: trojan, password: 4599f2ba-0c63-499b-b808-a07b37d076e8, sni: jp03.170203.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-18.181.182.203-109, server: jp02.170203.xyz, port: 23245, type: vmess, uuid: 4599f2ba-0c63-499b-b808-a07b37d076e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.170203.xyz}}}
