@@ -17,7 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.81.238-042 | 8.106MB
+- name: RELAY-104.24.177.7-102 | 9.003MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -26,13 +26,28 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.81.238-042 | 8.106MB
+  servername: RELAY-104.24.177.7-102 | 9.003MB
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Amsterdam.kotick.site
+- name: RELAY-172.67.81.238-106 | 7.743MB
+  server: cdnjs.com
+  port: 443
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: RELAY-172.67.81.238-106 | 7.743MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: Lille.kotick.site
-- name: RELAY-104.24.177.7-041 | 7.726MB
+- name: RELAY-172.67.81.238-103 | 7.698MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -41,13 +56,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-104.24.177.7-041 | 7.726MB
+  servername: RELAY-172.67.81.238-103 | 7.698MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: Dusseldorf.kotick.site
-- name: RELAY-172.67.81.238-038 | 7.567MB
+- name: RELAY-104.24.176.7-105 | 4.945MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -56,13 +71,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.81.238-038 | 7.567MB
+  servername: RELAY-104.24.176.7-105 | 4.945MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: Kansas.kotick.site
-- name: RELAY-172.67.81.238-039 | 6.86MB
+- name: RELAY-104.24.176.7-107 | 4.118MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -71,19 +86,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.81.238-039 | 6.86MB
+  servername: RELAY-104.24.176.7-107 | 4.118MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: Tokyo.kotick.site
-- name: 🇨🇳CN-120.232.233.203-000 | 2.719MB
-  server: gy.xueshao.top
-  port: 13945
-  type: trojan
-  password: fd9c5701-3e26-4bf7-a1a9-4e96f13ded0d
-  sni: hk01.ckcloud.info
-  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -140,28 +148,28 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.81.238-042 | 8.106MB
+  - RELAY-104.24.177.7-102 | 9.003MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.24.177.7-041 | 7.726MB
+  - RELAY-172.67.81.238-106 | 7.743MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.81.238-038 | 7.567MB
+  - RELAY-172.67.81.238-103 | 7.698MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.81.238-039 | 6.86MB
-  - 🇨🇳CN-120.232.233.203-000 | 2.719MB
+  - RELAY-104.24.176.7-105 | 4.945MB
+  - RELAY-104.24.176.7-107 | 4.118MB
 rules:
 - MATCH,Global ©️
