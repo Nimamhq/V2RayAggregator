@@ -17,7 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-104.24.177.7-07 | 8.064MB
+- name: RELAY-104.24.177.7-038 | 7.13MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -26,13 +26,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-104.24.177.7-07 | 8.064MB
+  servername: RELAY-104.24.177.7-038 | 7.13MB
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: Amsterdam.kotick.site
-- name: RELAY-104.24.176.7-04 | 7.981MB
+      Host: Dusseldorf.kotick.site
+- name: RELAY-104.24.176.7-041 | 3.065MB
   server: cdnjs.com
   port: 443
   type: vmess
@@ -41,7 +41,7 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-104.24.176.7-04 | 7.981MB
+  servername: RELAY-104.24.176.7-041 | 3.065MB
   network: ws
   ws-opts:
     path: /
@@ -121,7 +121,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.24.177.7-07 | 8.064MB
-  - RELAY-104.24.176.7-04 | 7.981MB
+  - RELAY-104.24.177.7-038 | 7.13MB
+  - RELAY-104.24.176.7-041 | 3.065MB
 rules:
 - MATCH,Global ©️
