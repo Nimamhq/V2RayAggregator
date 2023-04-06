@@ -17,7 +17,34 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇨🇳CN-120.198.71.191-000 | 7.954MB
+  server: gzyd.jcnode.top
+  port: 23001
+  type: vmess
+  uuid: 0baef526-511e-4eb7-a619-74d38c522588
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzyd.jcnode.top
+- name: 🇨🇳CN-120.198.71.191-002 | 6.782MB
+  server: gzyd.jcnode.top
+  port: 20000
+  type: vmess
+  uuid: 0baef526-511e-4eb7-a619-74d38c522588
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gzyd.jcnode.top
 proxy-groups:
 - name: Global ©️
   type: select
@@ -92,6 +119,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇨🇳CN-120.198.71.191-000 | 7.954MB
+  - 🇨🇳CN-120.198.71.191-002 | 6.782MB
 rules:
 - MATCH,Global ©️
