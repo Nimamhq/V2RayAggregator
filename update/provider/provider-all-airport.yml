@@ -1,4 +1,1 @@
 proxies:
-  - {name: RELAY-172.67.81.238-179, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: Kansas.kotick.site, network: ws, ws-opts: {path: /, headers: {Host: Kansas.kotick.site}}}
-  - {name: 🇨🇳 CN-120.198.71.191-000, server: gzyd.jcnode.top, port: 23001, type: vmess, uuid: 1c1432ab-a923-4056-a467-5aecfe66348d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}
-  - {name: 🇨🇳 CN-120.198.71.191-002, server: gzyd.jcnode.top, port: 20000, type: vmess, uuid: 1c1432ab-a923-4056-a467-5aecfe66348d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}}

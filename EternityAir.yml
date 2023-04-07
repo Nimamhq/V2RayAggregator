@@ -17,49 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-172.67.81.238-179 | 8.812MB
-  server: cdnjs.com
-  port: 443
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: RELAY-172.67.81.238-179 | 8.812MB
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Kansas.kotick.site
-- name: 🇨🇳CN-120.198.71.191-000 | 7.797MB
-  server: gzyd.jcnode.top
-  port: 23001
-  type: vmess
-  uuid: 1c1432ab-a923-4056-a467-5aecfe66348d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzyd.jcnode.top
-- name: 🇨🇳CN-120.198.71.191-002 | 6.143MB
-  server: gzyd.jcnode.top
-  port: 20000
-  type: vmess
-  uuid: 1c1432ab-a923-4056-a467-5aecfe66348d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gzyd.jcnode.top
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -134,8 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-172.67.81.238-179 | 8.812MB
-  - 🇨🇳CN-120.198.71.191-000 | 7.797MB
-  - 🇨🇳CN-120.198.71.191-002 | 6.143MB
+  - DIRECT
 rules:
 - MATCH,Global ©️
