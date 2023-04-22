@@ -1,5 +1,5 @@
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.4.53, port: 42175, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心 2, server: 170.178.179.189, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/031730091420}}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.66.46.15, port: 443, type: vmess, uuid: 12612e87-8003-44a8-b4e8-ec4a325e9016, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ou, headers: {Host: z.zorro.tk}}}
-  - {name: 🇫🇷 法国 OVH数据中心, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, skip-cert-verify: false}
-  - {name: 🇺🇸 美国 V2CROSS.COM, server: 170.187.134.190, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, sni: 170-187-134-190.ipv4.rush.ml, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 170-187-134-190.ipv4.rush.ml, port: 8443, type: trojan, password: cf4295378e209e70d12c5bdd017144dfd1c772d3, skip-cert-verify: false}
+  - {name: 🇨🇭 瑞士 V2CROSS.COM, server: 195.15.243.26, port: 443, type: trojan, password: !<str> 4478, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 V2CROSS.COM 2, server: 143.42.61.111, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: lsb-gy.heinu.cf, port: 2096, type: vmess, uuid: d793c013-f596-4af9-de0a-2062bb864dd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}}
+  - {name: 🇯🇵 日本 V2CROSS.COM, server: aws-hk01.aikun.online, port: 443, type: trojan, password: f8e4d8e3-36b5-42b1-af33-f0e1719976b4, skip-cert-verify: false}
