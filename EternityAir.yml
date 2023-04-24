@@ -17,21 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇯🇵JP-13.230.38.120-031 | 6.869MB
-  server: jp05-vm0.entry.srthdw.art
-  port: 30591
-  type: vmess
-  uuid: b2a2c706-12e0-3335-8a62-31925219a712
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jp05-vm0.entry.srthdw.art
-- name: 🇯🇵JP-13.230.38.120-154 | 6.86MB
+- name: 🇯🇵JP-13.230.38.120-154 | 6.898MB
   server: jp05-vm0.entry.srthdw.art
   port: 30589
   type: vmess
@@ -45,6 +31,26 @@ proxies:
     path: /
     headers:
       Host: jp05-vm0.entry.srthdw.art
+- name: 🇯🇵JP-13.230.38.120-031 | 6.897MB
+  server: jp05-vm0.entry.srthdw.art
+  port: 30591
+  type: vmess
+  uuid: b2a2c706-12e0-3335-8a62-31925219a712
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jp05-vm0.entry.srthdw.art
+- name: 🇨🇳CN-14.18.81.201-000 | 6.885MB
+  server: gzdx.jcnode.top
+  port: 40002
+  type: ss
+  cipher: aes-256-gcm
+  password: 29b7faf1-bc18-4ce6-81b4-ba5033d988b7
 proxy-groups:
 - name: Global ©️
   type: select
@@ -119,7 +125,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵JP-13.230.38.120-031 | 6.869MB
-  - 🇯🇵JP-13.230.38.120-154 | 6.86MB
+  - 🇯🇵JP-13.230.38.120-154 | 6.898MB
+  - 🇯🇵JP-13.230.38.120-031 | 6.897MB
+  - 🇨🇳CN-14.18.81.201-000 | 6.885MB
 rules:
 - MATCH,Global ©️
